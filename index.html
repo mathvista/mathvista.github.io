@@ -281,7 +281,7 @@
           <img src="static/images/statistics.png" alt="data-overview"/>
         </div>
       </div>
-      <div class="column">
+      <div class="column is-centered">
         <div class="content has-text-centered">
           <img src="static/images/data-composition.png" alt="data-composition"/>
           <p>
@@ -292,6 +292,17 @@
               <b>VQA</b>: visual question answering<br/>
           </p>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-max-desktop has-text-centered">
+        <h2 class="title is-3">Visualization</h2>
+        <iframe src="visualizer/explore.html" style="width: 100%;min-height: 100vh; border-radius: 20px;"></iframe>
       </div>
     </div>
   </div>
@@ -310,31 +321,17 @@
   </div>
 </section>
 
-
 <section>
-  <div class="section" style="table-layout: auto;">
-    <center>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <a href="https://www.ucla.edu/" target="_blank" rel="external">
-                            <img class="center-block" src="static/images/ucla.png" style="height:6em; max-width: 100%;"></a>
-                    </td>
-                    <td> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
-                    <td>
-                        <a href="https://www.washington.edu/" target="blank" class="ext-link">
-                            <img class="center-block" src="static/images/uw.png" style="height:6em; max-width: 100%;">
-                        </a>
-                    </td><td> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
-                    <td>
-                        <a href="https://www.microsoft.com/en-us/research/" target="_blank" rel="external">
-                            <img class="center-block" src="static/images/microsoft.png" style="height:6em; max-width: 100%;"></a>
-                    </td>
-                </tr>
-            </tbody>
-        </table><br>
-    </center>
+  <div class="section" id="org-banners" style="display:flex">
+    <a href="https://www.ucla.edu/" target="_blank" rel="external">
+        <img class="center-block org-banner" src="static/images/ucla.png">
+    </a>
+    <a href="https://www.washington.edu/" target="blank" class="ext-link">
+        <img class="center-block org-banner" src="static/images/uw.png">
+    </a>
+    <a href="https://www.microsoft.com/en-us/research/" target="_blank" rel="external">
+        <img class="center-block org-banner" src="static/images/microsoft.png">
+    </a>
   </div>
 </section>
 
