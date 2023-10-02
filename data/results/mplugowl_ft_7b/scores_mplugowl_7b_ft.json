@@ -334,7 +334,7 @@
         }
     },
     "grade": {
-        "daily life": {
+        "not applicable": {
             "accuracy": "25.72",
             "correct": 98,
             "total": 381

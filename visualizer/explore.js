@@ -15,7 +15,7 @@ DATA_FILE = "data_public.js"; // default, answers for testmini, no answer for te
 // let categories = ["All", "general-vqa", "math-targeted-vqa"];
 // let tasks = ["All", "figure question answering", "geometry problem solving", "math word problem", "textbook question answering", "visual question answering"];
 // let contexts = ["All", "abstract scene", "bar chart", "document image", "function plot", "geometry diagram", "heatmap chart", "line plot", "map chart", "medical image", "natural image", "pie chart", "puzzle test", "radar chart", "scatter plot", "scientific figure", "synthetic scene", "table", "violin plot", "word cloud"];
-// let grades = ["All", "daily life", "elementary school", "high school", "college"];
+// let grades = ["All", "not applicable", "elementary school", "high school", "college"];
 // let skills = ["All"];
 
 // Variables for the filters with the number of questions
@@ -28,7 +28,7 @@ let sources = ["All", "A-OKVQA (16)", "AI2D (267)", "CLEVR-Math (400)", "ChartQA
 let categories = ["All", "math-targeted-vqa (3402)", "general-vqa (2739)"];
 let tasks = ["All", "figure question answering (1647)", "geometry problem solving (1319)", "math word problem (1200)", "textbook question answering (937)", "visual question answering (1038)"];
 let contexts = ["All", "abstract scene (375)", "bar chart (781)", "document image (59)", "function plot (400)", "geometry diagram (1370)", "heatmap chart (1)", "line plot (202)", "map chart (30)", "medical image (6)", "natural image (615)", "pie chart (97)", "puzzle test (226)", "radar chart (4)", "scatter plot (205)", "scientific figure (518)", "synthetic scene (800)", "table (450)", "violin plot (1)", "word cloud (1)"];
-let grades = ["All", "college (661)", "daily life (2313)", "elementary school (1272)", "high school (1895)"];
+let grades = ["All",  "elementary school (1272)", "high school (1895)", "college (661)", "not applicable (2313)"];
 let skills = ["All", "algebraic reasoning (1748)", "arithmetic reasoning (2093)", "geometry reasoning (1429)", "logical reasoning (231)", "numeric commonsense (858)", "scientific reasoning (655)", "statistical reasoning (1870)"];
 
 // Elements in the Option Panel

@@ -49,7 +49,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -261,7 +261,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -396,7 +396,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -426,7 +426,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -459,7 +459,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -524,7 +524,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -623,7 +623,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -657,7 +657,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -717,7 +717,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -785,7 +785,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -818,7 +818,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -851,7 +851,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -881,7 +881,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -948,7 +948,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -1019,7 +1019,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -1191,7 +1191,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -1252,7 +1252,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -1345,7 +1345,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -1377,7 +1377,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -1605,7 +1605,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -1674,7 +1674,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -1734,7 +1734,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -1902,7 +1902,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -1969,7 +1969,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -2003,7 +2003,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -2306,7 +2306,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -2440,7 +2440,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -2474,7 +2474,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "pie chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -2541,7 +2541,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -2748,7 +2748,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -2810,7 +2810,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -2948,7 +2948,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -3014,7 +3014,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -3048,7 +3048,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -3080,7 +3080,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -3185,7 +3185,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "pie chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -3216,7 +3216,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -3285,7 +3285,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "abstract scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -3316,7 +3316,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -3446,7 +3446,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -3481,7 +3481,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -3512,7 +3512,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -3580,7 +3580,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -3645,7 +3645,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -3710,7 +3710,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -3809,7 +3809,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -4047,7 +4047,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -4187,7 +4187,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -4219,7 +4219,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -4312,7 +4312,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -4344,7 +4344,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -4412,7 +4412,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -4481,7 +4481,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -4512,7 +4512,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -4580,7 +4580,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -4615,7 +4615,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -4651,7 +4651,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -4723,7 +4723,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -5178,7 +5178,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -5271,7 +5271,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -5303,7 +5303,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -5371,7 +5371,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -5640,7 +5640,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -5740,7 +5740,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -5774,7 +5774,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -5808,7 +5808,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -5839,7 +5839,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -5910,7 +5910,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -6084,7 +6084,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -6146,7 +6146,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -6311,7 +6311,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -6373,7 +6373,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -6472,7 +6472,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -6681,7 +6681,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -6712,7 +6712,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -6743,7 +6743,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -6811,7 +6811,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -6912,7 +6912,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -6943,7 +6943,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -6975,7 +6975,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -7006,7 +7006,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -7038,7 +7038,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -7072,7 +7072,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -7103,7 +7103,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -7134,7 +7134,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -7197,7 +7197,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -7290,7 +7290,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -7565,7 +7565,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -7639,7 +7639,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "document image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -7670,7 +7670,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -7991,7 +7991,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -8022,7 +8022,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -8123,7 +8123,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -8158,7 +8158,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -8286,7 +8286,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -8447,7 +8447,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -8481,7 +8481,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -8720,7 +8720,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -8752,7 +8752,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -8814,7 +8814,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "document image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -9428,7 +9428,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -9460,7 +9460,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "abstract scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -9528,7 +9528,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -9782,7 +9782,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -9816,7 +9816,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -9983,7 +9983,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -10050,7 +10050,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -10195,7 +10195,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -10258,7 +10258,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -10292,7 +10292,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "abstract scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -10460,7 +10460,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -10529,7 +10529,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -10564,7 +10564,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -10670,7 +10670,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -10742,7 +10742,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -10918,7 +10918,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -10952,7 +10952,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -11014,7 +11014,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -11045,7 +11045,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -11246,7 +11246,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -11308,7 +11308,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -11601,7 +11601,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -11697,7 +11697,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -11731,7 +11731,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "geometry reasoning",
@@ -11837,7 +11837,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -11868,7 +11868,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -11931,7 +11931,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -12002,7 +12002,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -12036,7 +12036,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -12339,7 +12339,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -12371,7 +12371,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -12406,7 +12406,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -12612,7 +12612,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -12714,7 +12714,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -12818,7 +12818,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -12852,7 +12852,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -12886,7 +12886,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -12918,7 +12918,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -12949,7 +12949,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -12984,7 +12984,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -13052,7 +13052,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "statistical reasoning",
@@ -13160,7 +13160,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -13260,7 +13260,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -13330,7 +13330,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -13435,7 +13435,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -13539,7 +13539,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -13681,7 +13681,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -13886,7 +13886,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -14026,7 +14026,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -14057,7 +14057,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -14089,7 +14089,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -14194,7 +14194,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "document image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -14256,7 +14256,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -14290,7 +14290,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -14324,7 +14324,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -14430,7 +14430,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -14461,7 +14461,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -14493,7 +14493,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -14595,7 +14595,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -14626,7 +14626,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -14696,7 +14696,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -14727,7 +14727,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -14789,7 +14789,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -14858,7 +14858,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -14922,7 +14922,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -14990,7 +14990,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "pie chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -15024,7 +15024,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -15095,7 +15095,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -15126,7 +15126,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -15157,7 +15157,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -15228,7 +15228,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -15327,7 +15327,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -15399,7 +15399,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "pie chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -15461,7 +15461,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -15591,7 +15591,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -15694,7 +15694,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -15728,7 +15728,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -15796,7 +15796,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -15830,7 +15830,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "pie chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -15961,7 +15961,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -15993,7 +15993,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -16166,7 +16166,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -16200,7 +16200,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -16231,7 +16231,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -16446,7 +16446,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -16580,7 +16580,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -16716,7 +16716,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -16747,7 +16747,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -16778,7 +16778,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -16812,7 +16812,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -16881,7 +16881,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -16947,7 +16947,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -16978,7 +16978,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -17084,7 +17084,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -17186,7 +17186,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "pie chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -17254,7 +17254,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -17429,7 +17429,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -17493,7 +17493,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -17560,7 +17560,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -17728,7 +17728,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "document image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -17797,7 +17797,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -17865,7 +17865,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -17969,7 +17969,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -18031,7 +18031,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -18062,7 +18062,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -18133,7 +18133,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -18348,7 +18348,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -18379,7 +18379,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "pie chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -18413,7 +18413,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -18444,7 +18444,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -18514,7 +18514,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -18582,7 +18582,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -18613,7 +18613,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -18679,7 +18679,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "pie chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -18713,7 +18713,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -18747,7 +18747,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -18782,7 +18782,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -18850,7 +18850,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -18881,7 +18881,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -18916,7 +18916,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -18950,7 +18950,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -19017,7 +19017,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -19049,7 +19049,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -19217,7 +19217,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "document image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -19282,7 +19282,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -19548,7 +19548,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -19582,7 +19582,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -19647,7 +19647,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -19861,7 +19861,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "document image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -19892,7 +19892,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -19923,7 +19923,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -19955,7 +19955,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -20018,7 +20018,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -20049,7 +20049,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -20083,7 +20083,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "pie chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -20117,7 +20117,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -20148,7 +20148,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -20290,7 +20290,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "pie chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -20353,7 +20353,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "document image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -20387,7 +20387,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -20709,7 +20709,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -20778,7 +20778,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -20843,7 +20843,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "pie chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -21048,7 +21048,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -21082,7 +21082,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -21213,7 +21213,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -21275,7 +21275,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -21306,7 +21306,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -21516,7 +21516,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -21547,7 +21547,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -21896,7 +21896,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -21927,7 +21927,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -21990,7 +21990,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -22025,7 +22025,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -22060,7 +22060,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -22094,7 +22094,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -22128,7 +22128,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -22224,7 +22224,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -22258,7 +22258,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -22326,7 +22326,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -22394,7 +22394,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "document image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -22493,7 +22493,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -22601,7 +22601,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "document image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -22697,7 +22697,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -22803,7 +22803,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -22837,7 +22837,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -22942,7 +22942,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -22979,7 +22979,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -23227,7 +23227,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "document image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -23261,7 +23261,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -23401,7 +23401,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -23473,7 +23473,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -23614,7 +23614,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -23714,7 +23714,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "document image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -23745,7 +23745,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -23990,7 +23990,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -24022,7 +24022,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -24126,7 +24126,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -24391,7 +24391,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -24459,7 +24459,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -24558,7 +24558,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -24620,7 +24620,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -24651,7 +24651,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -24784,7 +24784,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -24818,7 +24818,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -24994,7 +24994,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -25026,7 +25026,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -25089,7 +25089,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -25157,7 +25157,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -25437,7 +25437,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -25617,7 +25617,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -25682,7 +25682,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -25815,7 +25815,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -25850,7 +25850,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -25884,7 +25884,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -26086,7 +26086,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -26157,7 +26157,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -26191,7 +26191,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -26504,7 +26504,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -26608,7 +26608,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "statistical reasoning",
@@ -26641,7 +26641,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -26673,7 +26673,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -26772,7 +26772,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -26836,7 +26836,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -26867,7 +26867,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -26899,7 +26899,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -27042,7 +27042,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -27137,7 +27137,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -27208,7 +27208,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -27447,7 +27447,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -27478,7 +27478,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "document image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -27509,7 +27509,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -27651,7 +27651,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -27759,7 +27759,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -27899,7 +27899,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -28073,7 +28073,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -28233,7 +28233,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -28304,7 +28304,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -28335,7 +28335,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -28367,7 +28367,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -28403,7 +28403,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -28507,7 +28507,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -28541,7 +28541,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "abstract scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -28572,7 +28572,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -28607,7 +28607,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -28673,7 +28673,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -28744,7 +28744,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -28775,7 +28775,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -28984,7 +28984,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -29051,7 +29051,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -29118,7 +29118,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -29214,7 +29214,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -29249,7 +29249,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -29414,7 +29414,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -29512,7 +29512,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -29642,7 +29642,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -29741,7 +29741,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -29811,7 +29811,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -29879,7 +29879,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -30046,7 +30046,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "pie chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -30113,7 +30113,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -30209,7 +30209,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -30424,7 +30424,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -30593,7 +30593,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -30627,7 +30627,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -30658,7 +30658,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -30796,7 +30796,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "abstract scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -30827,7 +30827,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -30862,7 +30862,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -30997,7 +30997,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -31059,7 +31059,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -31159,7 +31159,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -31233,7 +31233,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -31570,7 +31570,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -31638,7 +31638,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -31673,7 +31673,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -31871,7 +31871,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -31934,7 +31934,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -31966,7 +31966,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -32067,7 +32067,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -32207,7 +32207,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "abstract scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning",
                 "arithmetic reasoning"
@@ -32346,7 +32346,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -32445,7 +32445,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -32477,7 +32477,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -32605,7 +32605,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -32668,7 +32668,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -32733,7 +32733,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "scatter plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -32804,7 +32804,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "abstract scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -32838,7 +32838,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -32903,7 +32903,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -32968,7 +32968,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -33099,7 +33099,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -33131,7 +33131,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -33196,7 +33196,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -33230,7 +33230,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -33261,7 +33261,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -33360,7 +33360,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "natural image",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "numeric commonsense",
                 "arithmetic reasoning"
@@ -33392,7 +33392,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -33498,7 +33498,7 @@
             "category": "general-vqa",
             "task": "visual question answering",
             "context": "synthetic scene",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "arithmetic reasoning"
             ]
@@ -33563,7 +33563,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "line plot",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
@@ -33594,7 +33594,7 @@
             "category": "general-vqa",
             "task": "figure question answering",
             "context": "bar chart",
-            "grade": "daily life",
+            "grade": "not applicable",
             "skills": [
                 "statistical reasoning"
             ]
