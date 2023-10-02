@@ -40,6 +40,9 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
+  <script src="./static/js/question_card.js"></script>
+  <script src="./data/results/data_setting.js"></script>
+  <script src="./visualizer/data/data_public.js"></script>
 </head>
 <body>
 
@@ -461,150 +464,63 @@
         </div>
       </div>
     </div>
-    <div class="container is-full has-text-centered content mt-6">
+    <div class="container is-full has-text-centered content mt-6" id="result-table">
       <h2 class="title is-3">Explorer</h2>
       <p>Explore the outputs of each model on <span class="mathvista">MathVista</span></p>
-      <div class="level has-text-centered">
-        <div class="level-item box m-3" style="width: 30%">
-          <button class="button" style="width: 100%; border: none;">
+      <div class="level has-text-centered" style="position: sticky; top: 0; z-index: 20;">
+        <div class="level-item box m-3" style="width: 30%; background: rgba(250, 250, 250, 1);">
+          <button class="button" style="width: 100%; border: none; background: rgba(250, 250, 250, 1);" id="refresh-qids">
             <span class="icon is-large">
               <i class="fa fa-redo fa-lg" aria-hidden="true"></i>
             </span>
-            <p class="title is-4 m-0">Refresh Input Questions</p>
+            <p class="title is-4 m-0">Refresh Question</p>
           </button>
         </div>
-        <div class="level-item box m-3" style="width: 30%">
-          <div class="dropdown">
-            <div class="dropdown-trigger">
-              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" style="width: 100%; border: none;">
-                <p class="title m-0 is-4">Select Model</p>
-                <span class="icon is-large">
+        <div class="level-item box m-3" style="width: 30%; background: rgba(250, 250, 250, 1);">
+          <div class="dropdown" style="width: 100%;">
+            <div class="dropdown-trigger has-text-justified" style="width: 100%; ">
+              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" style="width: 100%; border: none; background: rgba(250, 250, 250, 1);">
+                <p class="title m-0 is-4 dropdown-display">Select Model</p>
+                <span class="icon is-large" style="position: absolute; right:0;">
                   <i class="fas fa-angle-down fa-lg" aria-hidden="true"></i>
                 </span>
               </button>
             </div>
-            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+            <div class="dropdown-menu" id="dropdown-menu" role="menu" style="width:100%;">
               <div class="dropdown-content">
-                <a class="dropdown-item">
+                <!-- <a class="dropdown-item">
                   Dropdown item
                 </a>
                 <a class="dropdown-item">
                   Other dropdown item
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
         </div>
-        <div class="level-item box m-3" style="width: 30%">
-          <div class="dropdown">
-            <div class="dropdown-trigger">
-              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" style="width: 100%; border: none;">
-                <p class="title m-0 is-4">Select Model</p>
-                <span class="icon is-large">
+        <div class="level-item box m-3" style="width: 30%; background: rgba(250, 250, 250, 1);">
+          <div class="dropdown" style="width: 100%;">
+            <div class="dropdown-trigger has-text-justified" style="width: 100%;">
+              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" style="width: 100%; border: none; background: rgba(250, 250, 250, 1);">
+                <p class="title m-0 is-4 dropdown-display">Select Model</p>
+                <span class="icon is-large" style="position: absolute; right:0;">
                   <i class="fas fa-angle-down fa-lg" aria-hidden="true"></i>
                 </span>
               </button>
             </div>
-            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+            <div class="dropdown-menu" id="dropdown-menu" role="menu" style="width:100%;">
               <div class="dropdown-content">
-                <a class="dropdown-item">
+                <!-- <a class="dropdown-item">
                   Dropdown item
                 </a>
                 <a class="dropdown-item">
                   Other dropdown item
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
         </div>
-        <!-- <div class="level-item box">
-          <div class="dropdown">
-            <div class="dropdown-trigger">
-              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" style="width: 100%; border: none;">
-                <p class="title m-0 is-4">Select Model</p>
-                <span class="icon is-large">
-                  <i class="fas fa-angle-down fa-lg" aria-hidden="true"></i>
-                </span>
-              </button>
-            </div>
-            <div class="dropdown-menu" id="dropdown-menu" role="menu">
-              <div class="dropdown-content">
-                <a class="dropdown-item">
-                  Dropdown item
-                </a>
-                <a class="dropdown-item">
-                  Other dropdown item
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <!-- <div class="tile is-ancestor">
-        <div class="tile is-parent is-4 is-vertical">
-          <div class="tile is-child box">
-            <p class="title is-4">Input Question</p>
-          </div>
-          <div class="tile is-child box">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-          </div>
-        </div>
-        <div class="tile is-parent is-4 is-vertical">
-          <div class="tile is-child box">
-            <div class="dropdown">
-              <div class="dropdown-trigger">
-                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" style="width: 100%; border: none;">
-                  <p class="title m-0 is-4">Select Model</p>
-                  <span class="icon is-large">
-                    <i class="fas fa-angle-down fa-lg" aria-hidden="true"></i>
-                  </span>
-                </button>
-              </div>
-              <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                <div class="dropdown-content">
-                  <a class="dropdown-item">
-                    Dropdown item
-                  </a>
-                  <a class="dropdown-item">
-                    Other dropdown item
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tile is-child box">
-            <p>abcd</p>
-          </div>
-        </div>
-        <div class="tile is-parent is-4 is-vertical">
-          <div class="tile is-child box">
-            <div class="dropdown">
-              <div class="dropdown-trigger">
-                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" style="width: 100%; border: none;">
-                  <p class="title m-0 is-4">Select Model</p>
-                  <span class="icon is-large">
-                    <i class="fas fa-angle-down fa-lg" aria-hidden="true"></i>
-                  </span>
-                </button>
-              </div>
-              <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                <div class="dropdown-content">
-                  <a class="dropdown-item">
-                    Dropdown item
-                  </a>
-                  <a class="dropdown-item">
-                    Other dropdown item
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tile is-child box">
-            <p>abcd</p>
-          </div>
-        </div>
-
-      </div> -->
+      </div>
     </div>
   </div>
 </section>

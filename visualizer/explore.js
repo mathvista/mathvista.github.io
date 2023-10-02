@@ -1,8 +1,8 @@
 
 // Data file
 
-// BASE_DIR = "../";
-BASE_DIR = "https://2023-math-images-amt.s3.us-west-1.amazonaws.com";
+BASE_DIR = "../data";
+// BASE_DIR = "https://2023-math-images-amt.s3.us-west-1.amazonaws.com";
 
 DATA_FILE = "data_public.js"; // default, answers for testmini, no answer for test
 // DATA_FILE = "data_private.js"; // answers for both the testmini and test splits
@@ -116,7 +116,7 @@ function closeNav() {
     // display.style.display = "block";
     optionpanel.style.width = "0vw";
     display.style.width = "100vw";
-    display.style.padding = display_padding;
+    display
     for (each of optionpanel.children) {
         each.style.display = "none";
     }
