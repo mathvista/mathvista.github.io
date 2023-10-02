@@ -5,8 +5,6 @@
 BASE_DIR = "https://raw.githubusercontent.com/mathvista/data/main"
 
 DATA_FILE = "data_public.js"; // default, answers for testmini, no answer for test
-// DATA_FILE = "data_private.js"; // answers for both the testmini and test splits
-
 
 // // Variables for the filters
 // let number_options = [20, 50, 100, 200, 500, "All"];   
