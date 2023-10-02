@@ -1,7 +1,8 @@
 
 // Data file
 
-BASE_DIR = "../data";
+// BASE_DIR = "../data";
+BASE_DIR = "https://raw.githubusercontent.com/mathvista/data/main"
 
 DATA_FILE = "data_public.js"; // default, answers for testmini, no answer for test
 // DATA_FILE = "data_private.js"; // answers for both the testmini and test splits
