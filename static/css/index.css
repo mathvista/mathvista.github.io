@@ -115,17 +115,17 @@ body {
   overflow: hidden;
 }
 
-.results-carousel .item {
-  margin: 5px;
+/* .results-carousel .item {
+  margin: 20px;
   overflow: hidden;
   border: 1px solid #bbb;
   border-radius: 10px;
-  padding: 0;
+  padding: 5px;
   font-size: 0;
-}
+} */
 
-.results-carousel video {
-  margin: 0;
+.stats-image {
+  max-height: 250px;
 }
 
 #org-banners {

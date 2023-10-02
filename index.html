@@ -201,64 +201,42 @@
   </div>
 </section>
 
-
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container" style="margin-bottom: 2vh;">
-        <!-- Abstract. -->
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-            <h2 class="title is-3">Abstract</h2>
-            <div class="content has-text-justified">
-              <p>
-                Although Large Language Models (LLMs) and Large Multimodal Models (LMMs) exhibit impressive skills in various domains, their ability for mathematical reasoning within visual contexts has not been formally examined. Equipping LLMs and LMMs with this capability is vital for general-purpose AI assistants and showcases promising potential in education, data analysis, and scientific discovery. 
-              </p>
-              <p>
-                To bridge this gap, we present <span class="mathvista">MathVista</span>, a benchmark designed to amalgamate challenges from diverse mathematical and visual tasks. We first taxonomize the key task types, reasoning skills, and visual contexts from the literature to guide our selection from 28 existing math-focused and visual question answering datasets. Then, we construct three new datasets, IQTest, FunctionQA, and PaperQA, to accommodate for missing types of visual contexts. The problems featured often require deep visual understanding beyond OCR or image captioning, and compositional reasoning with rich domain-specific tools, thus posing a notable challenge to existing models. 
-              </p>
-              <p>
-                We conduct a comprehensive evaluation of 11 prominent open-source and proprietary foundation models (LLMs, LLMs augmented with tools, and LMMs). The best-performing model, Multimodal Bard, achieves only 58% of human performance (34.8% vs 60.3%), indicating ample room for further improvement. Given this significant gap, <span class="mathvista">MathVista</span> fuels future research in the development of general-purpose AI agents capable of tackling mathematically intensive and visually rich real-world tasks.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!--/ Abstract. -->
-    </div>
-
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item">
-          <img src="static/images/ari.png" alt="arithmetic reasoning" width="100%"/>
-        </div>
-        <div class="item">
-          <img src="static/images/alg.png" alt="algebraic reasoning" width="100%"/>
-        </div>
-        <div class="item">
-          <img src="static/images/geo.png" alt="geometric reasoning" width="100%"/>
-        </div>
-        <div class="item">
-          <img src="static/images/log.png" alt="logical reasoning" width="100%"/>
-        </div>
-        <div class="item">
-          <img src="static/images/num.png" alt="numeric reasoning" width="100%"/>
-        </div>
-        <div class="item">
-          <img src="static/images/sta.png" alt="statistical reasoning" width="100%"/>
-        </div>
-        <div class="item">
-          <img src="static/images/sci.png" alt="scientific reasoning" width="100%"/>
+<section class="section">
+  <div class="container" style="margin-bottom: 2vh;">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Although Large Language Models (LLMs) and Large Multimodal Models (LMMs) exhibit impressive skills in various domains, their ability for mathematical reasoning within visual contexts has not been formally examined. Equipping LLMs and LMMs with this capability is vital for general-purpose AI assistants and showcases promising potential in education, data analysis, and scientific discovery. 
+          </p>
+          <p>
+            To bridge this gap, we present <span class="mathvista">MathVista</span>, a benchmark designed to amalgamate challenges from diverse mathematical and visual tasks. We first taxonomize the key task types, reasoning skills, and visual contexts from the literature to guide our selection from 28 existing math-focused and visual question answering datasets. Then, we construct three new datasets, IQTest, FunctionQA, and PaperQA, to accommodate for missing types of visual contexts. The problems featured often require deep visual understanding beyond OCR or image captioning, and compositional reasoning with rich domain-specific tools, thus posing a notable challenge to existing models. 
+          </p>
+          <p>
+            We conduct a comprehensive evaluation of 11 prominent open-source and proprietary foundation models (LLMs, LLMs augmented with tools, and LMMs). The best-performing model, Multimodal Bard, achieves only 58% of human performance (34.8% vs 60.3%), indicating ample room for further improvement. Given this significant gap, <span class="mathvista">MathVista</span> fuels future research in the development of general-purpose AI agents capable of tackling mathematically intensive and visually rich real-world tasks.
+          </p>
         </div>
       </div>
     </div>
+    <!--/ Abstract. -->
+</div>
+</section>
+
+<!-- DATASET SECTION -->
+<section class="hero is-light is-small">
+  <div class="hero-body has-text-centered">
+    <h1 class="title is-1 mathvista">MathVista Dataset</h1>
   </div>
 </section>
 
 <section class="section">
-  <div class="container is-max-desktop">
+  <div class="container">
     <div class="columns is-centered">
-      <div class="column is-full-width">
+      <div class="column is-full-width has-text-centered">
+        <h2 class="title is-3">Overview</h2>
         <div class="content has-text-justified">
-          <h2 class="title is-3">Overview</h2>
           <p>
             <span class="mathvista">MathVista</span> is a compilation of data 1) carefully examined and filtered from existing VQA and MathQA datasets and 2) manually collected by us. In total, 6,141 examples were collected from 31 different datasets.
           </p>
@@ -277,13 +255,13 @@
     </div>
     <div class="columns is-centered">
       <div class="column">
-        <div class="content">
-          <img src="static/images/statistics.png" alt="data-overview"/>
+        <div class="content has-text-centered">
+          <img src="static/images/statistics.png" alt="data-overview" style="max-width: 60%;"/>
         </div>
       </div>
-      <div class="column is-centered">
+      <div class="column">
         <div class="content has-text-centered">
-          <img src="static/images/data-composition.png" alt="data-composition"/>
+          <img src="static/images/data-composition.png" alt="data-composition" style="max-width: 60%;"/>
           <p>
               <b>FQA</b>: figure question answering<br/>
               <b>GPS</b>: geometry problem solving<br/>
@@ -294,12 +272,108 @@
         </div>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <div class="columns is-centered">
+    <div class="columns is-centered mt-6">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3">Examples</h2>
+        <p>One example for each reasoning skill required in <span class="mathvista">MathVista</span></p>
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/examples/ari.png" alt="arithmetic reasoning" width="99%"/>
+              <p>Arithmetic Reasoning</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/examples/alg.png" alt="algebraic reasoning" width="99%"/>
+              <p>Algebraic Reasoning</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/examples/geo.png" alt="geometric reasoning" width="99%"/>
+              <p>Geometric Reasoning</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/examples/log.png" alt="logical reasoning" width="99%"/>
+              <p>Logical Reasoning</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/examples/num.png" alt="numeric reasoning" width="99%"/>
+              <p>Numeric Reasoning</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/examples/sta.png" alt="statistical reasoning" width="99%"/>
+              <p>Statistical Reasoning</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/examples/sci.png" alt="scientific reasoning" width="99%"/>
+              <p>Scientific Reasoning</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-centered mt-6">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3">Statistics</h2>
+        <p>Notable statistics of <span class="mathvista">MathVista</span></p>
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/statistics/context-dist.png" alt="context" class="stats-image"/>
+              <p>Distribution of visual context types within <span class="mathvista">MathVista</span></p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/statistics/category.png" alt="category" class="stats-image"/>
+              <p>Category distribution of problems within <span class="mathvista">MathVista</span></p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/statistics/grade-levels.png" alt="grade" class="stats-image"/>
+              <p>Distribution of questions across different grade levels within <span class="mathvista">MathVista</span></p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/statistics/qs-len.png" alt="qs-len" class="stats-image"/>
+              <p>Distribution of the number of words per question in <span class="mathvista">MathVista</span>. Questions with a
+                length greater than 60 are categorized as 61 for visualization simplicity</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/statistics/reasoning.png" alt="reasoning" class="stats-image"/>
+              <p>Portion of each mathematical reasoning type involved in the problems of <span class="mathvista">MathVista</span></p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/statistics/reasoning-count.png" alt="reasoning-count" class="stats-image"/>
+              <p>Distribution of the number of mathematical reasoning types within <span class="mathvista">MathVista</span></p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/statistics/task-type.png" alt="task-type" class="stats-image"/>
+              <p>Task type distribution of problems within <span class="mathvista">MathVista</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-centered mt-6">
       <div class="column is-max-desktop has-text-centered">
         <h2 class="title is-3">Visualization</h2>
         <iframe src="visualizer/explore.html" style="width: 100%;min-height: 100vh; border-radius: 20px;"></iframe>
@@ -308,11 +382,238 @@
   </div>
 </section>
 
+<!-- RESULTS SECTION -->
+<section class="hero is-light is-small">
+  <div class="hero-body has-text-centered">
+    <h1 class="title is-1 mathvista">Experiment Results</h1>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3">Results on Existing Foundation Models</h2>
+        <!-- <p>One example for each reasoning skill required in <span class="mathvista">MathVista</span></p> -->
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/results-figures/grade-lv.png" alt="grade-lv" width="99%"/>
+              <p>Average accuracy scores across different grade levels for leading foundation models</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/results-figures/contexts.png" alt="contexts" width="99%"/>
+              <p>Accuracy scores of leading baselines across various visual contexts</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/results-figures/ablation.png" alt="geometric reasoning" width="99%"/>
+              <p>Average accuracy scores of LLM baselines under various visual inputs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-centered mt-6">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3">Leaderboard</h2>
+        <div class="content">
+          <img src="static/images/result-scores.png" alt="leaderboard"/>
+          <p>Accuracy scores on the testmini subset. The highest
+            scores among models in each section and overall are highlighted in <span style="color:blue">blue</span> and <span style="color:red">red</span>, respectively.</p>
+          <div class="is-flex is-justify-content-center">
+            <div class="has-text-justified">
+              <b>Input:</b> <br/>
+              <ul>
+                <li><b>Q:</b> question</li>
+                <li><b>I:</b> image</li>
+                <li><b>Ic:</b> image caption</li>
+                <li><b>It:</b> OCR text detected in the image</li>
+                <li><b>ALL:</b> overall accuracy</li>
+              </ul>
+            </div>
+            <div class="has-text-justified">
+              <b>Task types:</b><br/>
+              <ul>
+                <li><b>FQA:</b> figure question answering</li>
+                <li><b>GPS:</b> geometry problem solving</li>
+                <li><b>MWP:</b> math word problem</li>
+                <li><b>TQA:</b> textbook question answering</li>
+                <li><b>VQA:</b> visual question answering</li>
+              </ul>
+            </div>
+            <div class="has-text-justified">
+              <b>Mathematical reasoning types:</b><br/> 
+              <ul>
+                <li><b>ALG:</b> algebraic reasoning</li>
+                <li><b>ARI:</b> arithmetic reasoning</li>
+                <li><b>GEO:</b> geometry reasoning</li>
+                <li><b>LOG:</b> logical reasoning</li>
+                <li><b>NUM:</b> numeric commonsense</li>
+                <li><b>SCI:</b> scientific reasoning</li>
+                <li><b>STA:</b> statistical reasoning</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container is-full has-text-centered content mt-6">
+      <h2 class="title is-3">Explorer</h2>
+      <p>Explore the outputs of each model on <span class="mathvista">MathVista</span></p>
+      <div class="level has-text-centered">
+        <div class="level-item box m-3" style="width: 30%">
+          <button class="button" style="width: 100%; border: none;">
+            <span class="icon is-large">
+              <i class="fa fa-redo fa-lg" aria-hidden="true"></i>
+            </span>
+            <p class="title is-4 m-0">Refresh Input Questions</p>
+          </button>
+        </div>
+        <div class="level-item box m-3" style="width: 30%">
+          <div class="dropdown">
+            <div class="dropdown-trigger">
+              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" style="width: 100%; border: none;">
+                <p class="title m-0 is-4">Select Model</p>
+                <span class="icon is-large">
+                  <i class="fas fa-angle-down fa-lg" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+              <div class="dropdown-content">
+                <a class="dropdown-item">
+                  Dropdown item
+                </a>
+                <a class="dropdown-item">
+                  Other dropdown item
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="level-item box m-3" style="width: 30%">
+          <div class="dropdown">
+            <div class="dropdown-trigger">
+              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" style="width: 100%; border: none;">
+                <p class="title m-0 is-4">Select Model</p>
+                <span class="icon is-large">
+                  <i class="fas fa-angle-down fa-lg" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+              <div class="dropdown-content">
+                <a class="dropdown-item">
+                  Dropdown item
+                </a>
+                <a class="dropdown-item">
+                  Other dropdown item
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="level-item box">
+          <div class="dropdown">
+            <div class="dropdown-trigger">
+              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" style="width: 100%; border: none;">
+                <p class="title m-0 is-4">Select Model</p>
+                <span class="icon is-large">
+                  <i class="fas fa-angle-down fa-lg" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+              <div class="dropdown-content">
+                <a class="dropdown-item">
+                  Dropdown item
+                </a>
+                <a class="dropdown-item">
+                  Other dropdown item
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- <div class="tile is-ancestor">
+        <div class="tile is-parent is-4 is-vertical">
+          <div class="tile is-child box">
+            <p class="title is-4">Input Question</p>
+          </div>
+          <div class="tile is-child box">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+        </div>
+        <div class="tile is-parent is-4 is-vertical">
+          <div class="tile is-child box">
+            <div class="dropdown">
+              <div class="dropdown-trigger">
+                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" style="width: 100%; border: none;">
+                  <p class="title m-0 is-4">Select Model</p>
+                  <span class="icon is-large">
+                    <i class="fas fa-angle-down fa-lg" aria-hidden="true"></i>
+                  </span>
+                </button>
+              </div>
+              <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                <div class="dropdown-content">
+                  <a class="dropdown-item">
+                    Dropdown item
+                  </a>
+                  <a class="dropdown-item">
+                    Other dropdown item
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tile is-child box">
+            <p>abcd</p>
+          </div>
+        </div>
+        <div class="tile is-parent is-4 is-vertical">
+          <div class="tile is-child box">
+            <div class="dropdown">
+              <div class="dropdown-trigger">
+                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" style="width: 100%; border: none;">
+                  <p class="title m-0 is-4">Select Model</p>
+                  <span class="icon is-large">
+                    <i class="fas fa-angle-down fa-lg" aria-hidden="true"></i>
+                  </span>
+                </button>
+              </div>
+              <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                <div class="dropdown-content">
+                  <a class="dropdown-item">
+                    Dropdown item
+                  </a>
+                  <a class="dropdown-item">
+                    Other dropdown item
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tile is-child box">
+            <p>abcd</p>
+          </div>
+        </div>
+
+      </div> -->
+    </div>
+  </div>
+</section>
+
 
 <!-- @PAN TODO: bibtex -->
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
-    <h2 class="title is-3">BibTeX</h2>
+    <h2 class="title is-3 has-text-centered">BibTeX</h2>
     <pre><code>@article{park2021nerfies,
   author    = {Lu, Pan and Bansal, Hritik and Xia, Tony and Liu, Jiacheng and Li, Chunyuan and Hajishirzi, Hannaneh and Cheng, Hao and Chang, Kai-Wei and Galley, Michel and Gao, Jianfeng},
   title     = MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts},
