@@ -40,7 +40,7 @@ let opt_dds = document.getElementsByClassName("opt-dd");
 let filter_submit = document.getElementById("filter-submit");
 
 // Element Text the Option Panel
-let number_dd = make_dropdown("How many numbers?", number_options, "number_dd");
+let number_dd = make_dropdown("How many samples?", number_options, "number_dd");
 let split_dd = make_dropdown("Choose a split:", splits, "split_dd");
 let question_type_dd = make_dropdown("Choose a question type:", question_types, "question_type_dd");
 let answer_type_dd = make_dropdown("Choose an answer type:", answer_types, "answer_type_dd");
