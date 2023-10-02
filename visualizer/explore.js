@@ -2,7 +2,6 @@
 // Data file
 
 BASE_DIR = "../data";
-// BASE_DIR = "https://2023-math-images-amt.s3.us-west-1.amazonaws.com";
 
 DATA_FILE = "data_public.js"; // default, answers for testmini, no answer for test
 // DATA_FILE = "data_private.js"; // answers for both the testmini and test splits
@@ -21,7 +20,7 @@ DATA_FILE = "data_public.js"; // default, answers for testmini, no answer for te
 // let skills = ["All"];
 
 // Variables for the filters with the number of questions
-let number_options = [20, 50, 100, 200, 500, "All"];  
+let number_options = [20, 50, 100, 200];  
 let splits = ["All", "testmini (1000)", "test (5141)"];    
 let question_types = ["All", "free_form (2749)", "multi_choice (3392)"];
 let answer_types = ["All", "text (3392)", "integer (2461)", "float (272)", "list (16)"];
