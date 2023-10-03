@@ -6,6 +6,7 @@ name_to_folder_map = {
   "minigpt4": "minigpt4",
   "llava_llama_2_13b": "llava_llama_2_13b",
   "gpt4_cot": "gpt4_cot",
+  "random_chance": "random_chance",
   "mplugowl_ft_7b": "mplugowl_ft_7b",
   "claude": "claude",
   "llama_adapter_v2": "llama_adapter_v2",
