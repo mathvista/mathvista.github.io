@@ -32,8 +32,9 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <!-- @PAN TODO: pick an icon -->
   <link rel="icon" href="./static/images/mathvista.png">
+  <link href="https://unpkg.com/tabulator-tables@5.5.2/dist/css/tabulator_bulma.min.css" rel="stylesheet">
+  <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.5.2/dist/js/tabulator.min.js"></script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -41,8 +42,9 @@
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
   <script src="./static/js/question_card.js"></script>
-  <script src="./data/results/data_setting.js"></script>
-  <script src="./visualizer/data/data_public.js"></script>
+  <script src="./data/results/data_setting.js" defer></script>
+  <script src="./data/results/model_scores.js" defer></script>
+  <script src="./visualizer/data/data_public.js" defer></script>
 </head>
 <body>
 
@@ -306,7 +308,7 @@
         </div>
       </div>
     </div>
-    <div class="columns is-centered mt-6">
+    <div class="columns is-centered m-6">
       <div class="column is-full has-text-centered content">
         <h2 class="title is-3">Examples</h2>
         <p>One example for each reasoning skill required in <span class="mathvista">MathVista</span></p>
@@ -356,7 +358,7 @@
         </div>
       </div>
     </div>
-    <div class="columns is-centered mt-6">
+    <div class="columns is-centered m-6">
       <div class="column is-full has-text-centered content">
         <h2 class="title is-3">Statistics</h2>
         <p>Notable statistics of <span class="mathvista">MathVista</span></p>
@@ -407,7 +409,7 @@
         </div>
       </div>
     </div>
-    <div class="columns is-centered mt-6">
+    <div class="columns is-centered m-6">
       <div class="column is-max-desktop has-text-centered">
         <h2 class="title is-3">Visualization</h2>
         <iframe src="visualizer/explore.html" style="width: 100%;min-height: 100vh; border-radius: 20px;"></iframe>
@@ -451,24 +453,14 @@
         </div>
       </div>
     </div>
-    <div class="columns is-centered mt-6">
+    <div class="columns is-centered m-6">
       <div class="column is-full has-text-centered content">
         <h2 class="title is-3">Leaderboard</h2>
         <div class="content">
-          <img src="static/images/result-scores.png" alt="leaderboard"/>
-          <p>Accuracy scores on the testmini subset. The highest
-            scores among models in each section and overall are highlighted in <span style="color:blue">blue</span> and <span style="color:red">red</span>, respectively.</p>
+          <div id="score-table" class="container is-striped"></div>
+          <!-- <img src="static/images/result-scores.png" alt="leaderboard"/> -->
+          <p class="mt-3">Percent Accuracy
           <div class="is-flex is-justify-content-center">
-            <div class="has-text-justified">
-              <b>Input:</b> <br/>
-              <ul>
-                <li><b>Q:</b> question</li>
-                <li><b>I:</b> image</li>
-                <li><b>Ic:</b> image caption</li>
-                <li><b>It:</b> OCR text detected in the image</li>
-                <li><b>ALL:</b> overall accuracy</li>
-              </ul>
-            </div>
             <div class="has-text-justified">
               <b>Task types:</b><br/>
               <ul>
@@ -495,7 +487,7 @@
         </div>
       </div>
     </div>
-    <div class="container is-full has-text-centered content mt-6" id="result-table">
+    <div class="container is-full has-text-centered content m-6" id="result-table">
       <h2 class="title is-3">Explorer</h2>
       <p>Explore the outputs of each model on <span class="mathvista">MathVista</span></p>
       <div class="level has-text-centered" style="position: sticky; top: 0; z-index: 20;">

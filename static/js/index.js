@@ -46,13 +46,15 @@ $(document).ready(function() {
     }
 
     let qids = getRandomSubarray(num_output_qs);
+    refresh_table(qids);
+    let dropdown_displays = document.getElementsByClassName('dropdown-display');
     let refresh_button = document.getElementById('refresh-qids');
     refresh_button.addEventListener('click', function(event) {
         qids = getRandomSubarray(num_output_qs);
         refresh_table(qids);
     });
 
-    let dropdown_displays = document.getElementsByClassName('dropdown-display');
+    // let dropdown_displays = document.getElementsByClassName('dropdown-display');
     let dropdown_contents = document.getElementsByClassName('dropdown-content');
     for (let i = 0; i < dropdown_contents.length; i++) {
         // add an <a> tag to the dropdown-content for each key in name_to_folder_map
@@ -67,12 +69,24 @@ $(document).ready(function() {
                 let [folder, script_tag] = read_data(name);
                 script_tag.addEventListener('load', function() {
                     cache[name] = eval(folder);
+                    console.log(cache['gpt4v']);
                     refresh_table(qids);
                 });
             });
             a.style.padding = '0.375em 1em';
         }
     }
+
+    // create the leaderboard
+    let leaderboard = new Tabulator("#score-table", {
+        data:score_table, //assign data to table
+        layout:"fitDataTable",
+        // layout:"fitColumns",
+        initialSort:[
+            {column:"ALL", dir:"desc"}, //sort by this first
+        ],
+        autoColumns:true, //create columns from data field names
+    });
 })
 
 var cache = {};
@@ -90,10 +104,12 @@ function read_data(model_name) {
 
 }
 
-function getRandomSubarray(size) {
-    let arr = [];
-    for (let i = 1; i < 1001; i++) {
-        arr.push(i);
+function getRandomSubarray(size, arr=null) {
+    if (arr == null) {
+        arr = [];
+        for (let i = 1; i < 1001; i++) {
+            arr.push(i);
+        }
     }
     var shuffled = arr.slice(0), i = arr.length, temp, index;
     while (i--) {
@@ -112,6 +128,10 @@ function refresh_table(qids) {
     for (let i = 0; i < dropdown_displays.length; i++) {
         model_names.push(dropdown_displays[i].innerText);
     }
+    if ("gpt4v" === model_names[0] || "gpt4v" === model_names[1]) {
+        qids = getRandomSubarray(num_output_qs, Object.keys(cache['gpt4v']));
+    }
+    console.log(qids);
     console.log(model_names);
     while (table.children.length > 3) 
         table.removeChild(table.lastChild);
@@ -140,8 +160,4 @@ function generate_row(qid, model_names) {
         <div class='leve-item container m-3' style='width: 30%; white-space: pre-wrap;'>${responses[1]['response']}</div>
     </div>`;
     return html;
-}
-
-function reflow(elt) {
-    elt.offsetHeight;
 }

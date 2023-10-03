@@ -1,6 +1,7 @@
 name_to_folder_map = {
   "bard": "bard",
   "chatgpt_pot": "chatgpt_pot",
+  "gpt4v": "gpt4v",
   "minigpt4": "minigpt4",
   "chatgpt_cot": "chatgpt_cot",
   "llama_adapter_v2": "llama_adapter_v2",
