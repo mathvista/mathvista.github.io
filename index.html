@@ -70,10 +70,13 @@
         </a>
         <div class="navbar-dropdown">
           <a class="navbar-item" href="https://chameleon-llm.github.io/">
-            Chameleon (Hot!)
+            <b>Chameleon</b> <p style="font-size:18px; display: inline; margin-left: 5px;">🔥</p>
           </a>
           <a class="navbar-item" href="https://scienceqa.github.io/">
-            ScienceQA (Hot!)
+            <b>ScienceQA</b> <p style="font-size:18px; display: inline; margin-left: 5px;">🔥</p>
+          </a>
+          <a class="navbar-item" href="https://github.com/OpenGVLab/LLaMA-Adapter">
+            <b>LLaMA-Adapter (V2)</b> <p style="font-size:18px; display: inline; margin-left: 5px;">🔥</p>
           </a>
           <a class="navbar-item" href="https://promptpg.github.io/">
             PromptPG
@@ -169,7 +172,7 @@
               <!-- PDF Link. -->
               <span class="link-block">
                 <!-- @PAN TODO: change links -->
-                <a href=""
+                <a href="https://lupantech.github.io/papers/arxiv23_mathvista.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -208,13 +211,27 @@
               </span>
               <!-- Dataset Link. -->
               <span class="link-block">
-                <a href=""
+                <a href="https://huggingface.co/datasets/lupantech/MathVista"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="far fa-images"></i>
+                      <!-- <i class="far fa-images"></i> -->
+                      <p style="font-size:18px">🤗</p>
                   </span>
-                  <span>Data</span>
-                  </a>
+                  <span>Dataset</span>
+                </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://twitter.com/lupantech"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <!-- <i class="far fa-images"></i> -->
+                      <!-- 💻🔗 -->
+                      <p style="font-size:18px">🌐</p>
+                  </span>
+                  <span>Twitter</span>
+                </a>
+              </span>
             </div>
 
           </div>
@@ -226,13 +243,34 @@
 
 <section class="hero teaser">
   <div class="container is-max-desktop">
-    <div class="hero-body">
-      <img src="static/images/teaser.png" alt="Examples from the dataset"/>
-      <!-- <h2 class="subtitle has-text-centered">
+    <!-- <div class="hero-body">
+      <img src="static/images/tease_scores.png" alt="Examples from the dataset"/>
+      <h2 class="subtitle has-text-centered">
         <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
         free-viewpoint
         portraits.
-      </h2> -->
+      </h2>
+    </div> -->
+      <!-- <div class="box m-5"> -->
+        <div class="content has-text-centered">
+          <img src="static/images/tease_scores.png" alt="geometric reasoning" width="99%"/>
+          <p> Accuracy scores of one leading LLM (PoT GPT-4) and five primary LMMs on our proposed 
+           
+            <!-- <span class="mathvista">MathVista</span>
+
+            <span class="mathvista"><img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>MathVista</span> -->
+
+            <!-- <span>
+              <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+              <span class="mathvista">MathVista</span>
+            </span> -->
+
+            <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+            <span class="mathvista">MathVista</span>
+
+             across mathematical reasoning and visual context types. Scores are adjusted by subtracting the random chance score and normalized to a range of 0 - 100. PoT refers to programof-thought prompting, and PoT GPT-4 is a textual LLM augmented with the caption and OCR text.</p>
+        </div>
+      <!-- </div> -->
     </div>
   </div>
 </section>
@@ -245,13 +283,17 @@
         <h2 class="title is-3">Introduction</h2>
         <div class="content has-text-justified">
           <p>
-            Although Large Language Models (LLMs) and Large Multimodal Models (LMMs) exhibit impressive skills in various domains, their ability for mathematical reasoning within visual contexts has not been formally examined. Equipping LLMs and LMMs with this capability is vital for general-purpose AI assistants and showcases promising potential in education, data analysis, and scientific discovery. 
+            Although Large Language Models (LLMs) and Large Multimodal Models (LMMs) exhibit impressive skills in various domains, their ability for mathematical reasoning within visual contexts has not been formally examined. Equipping LLMs and LMMs with this capability is vital for general-purpose AI assistants and showcases promising potential in education, data analysis, and scientific discovery.
           </p>
           <p>
-            To bridge this gap, we present <span class="mathvista">MathVista</span>, a benchmark designed to amalgamate challenges from diverse mathematical and visual tasks. We first taxonomize the key task types, reasoning skills, and visual contexts from the literature to guide our selection from 28 existing math-focused and visual question answering datasets. Then, we construct three new datasets, IQTest, FunctionQA, and PaperQA, to accommodate for missing types of visual contexts. The problems featured often require deep visual understanding beyond OCR or image captioning, and compositional reasoning with rich domain-specific tools, thus posing a notable challenge to existing models. 
+            To bridge this gap, we present 
+              <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+              <span class="mathvista">MathVista</span>, a benchmark designed to amalgamate challenges from <b>diverse mathematical and visual tasks</b>. We first taxonomize the key task types, reasoning skills, and visual contexts from the literature to guide our selection from <b>28 existing math-focused and visual question answering datasets</b>. Then, <b>we construct three new datasets, IQTest, FunctionQA, and PaperQA</b>, to accommodate for missing types of visual contexts. The problems featured often require deep visual understanding beyond OCR or image captioning, and compositional reasoning with rich domain-specific tools, thus posing a notable challenge to existing models.
           </p>
           <p>
-            We conduct a comprehensive evaluation of 11 prominent open-source and proprietary foundation models (LLMs, LLMs augmented with tools, and LMMs). The best-performing model, Multimodal Bard, achieves only 58% of human performance (34.8% vs 60.3%), indicating ample room for further improvement. Given this significant gap, <span class="mathvista">MathVista</span> fuels future research in the development of general-purpose AI agents capable of tackling mathematically intensive and visually rich real-world tasks.
+            We conduct <b>a comprehensive evaluation of 11 prominent open-source and proprietary foundation models</b> (LLMs, LLMs augmented with tools, and LMMs), and <b>early experiments with GPT-4V</b>. The best-performing model, Multimodal Bard, achieves only <b>58%</b> of human performance (34.8% vs 60.3%), indicating ample room for further improvement. Given this significant gap, <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+            <span class="mathvista">MathVista</span> fuels future research in the development of general-purpose AI agents capable of tackling mathematically intensive and visually rich real-world tasks. Preliminary tests show that <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+            <span class="mathvista">MathVista</span> also presents challenges to GPT-4V, underscoring the benchmark's importance.
           </p>
         </div>
       </div>
@@ -263,147 +305,318 @@
 <!-- DATASET SECTION -->
 <section class="hero is-light is-small">
   <div class="hero-body has-text-centered">
-    <h1 class="title is-1 mathvista">MathVista Dataset</h1>
+    <!-- <h1 class="title is-1 mathvista"><img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>MathVista Dataset</h1> -->
+  <h1 class="title is-1 mathvista">
+    <img src="static/images/mathvista.png" style="width:1em;vertical-align: middle" alt="Logo"/>
+    <span class="mathvista" style="vertical-align: middle">MathVista Dataset</span>
+  </h1>
   </div>
 </section>
 
+<!-- <section class="section">
+  <div class="container" style="margin-bottom: 2vh;">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Introduction</h2>
+        <div class="content has-text-justified">
+          <p> -->
+            
 <section class="section">
   <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-full-width has-text-centered">
+    <div class="columns is-centered has-text-centered">
+      <!-- <div class="column is-full-width has-text-centered"> -->
+        <div class="column is-four-fifths">
         <h2 class="title is-3">Overview</h2>
         <div class="content has-text-justified">
           <p>
-            <span class="mathvista">MathVista</span> is a compilation of data 1) carefully examined and filtered from existing VQA and MathQA datasets and 2) manually collected by us. In total, 6,141 examples were collected from 31 different datasets.
+            <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+            <span class="mathvista">MathVista</span> is a consolidated Mathematical reasoning benchmark within
+            Visual contexts. It consists of <b>three newly created datasets, IQTest, FunctionQA, and PaperQA</b>, which address the missing visual domains and are tailored to evaluate logical reasoning on puzzle test figures,
+            algebraic reasoning over functional plots, and scientific reasoning with academic paper figures, respectively. It also incorporates <b>9 MathQA datasets</b>
+            and <b>19 VQA datasets</b> from the literature, which significantly enrich the diversity and complexity of
+            visual perception and mathematical reasoning challenges within our benchmark. 
+            In total, <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+            <span class="mathvista">MathVista</span> includes <b>6,141 examples</b> collected from <b>31 different datasets</b>.
+            <!-- a compilation of data 1) carefully examined and filtered from 28 existing VQA and MathQA datasets and 2) manually collected by us. In total, 6,141 examples were collected from 31 different datasets. -->
           </p>
+
+          <div id="results-carousel" class="carousel results-carousel">
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <img src="static/images/our_new_3_datasets.png" alt="algebraic reasoning" width="80%"/>
+                <p> Examples of our newly annotated datasets: IQTest, FunctionQA, and PaperQA.</p>
+              </div>
+            </div>
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <img src="static/images/source_dataset.png" alt="arithmetic reasoning" width="50%"/>
+                <p> Summary of the 31 different source datasets in <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+                  <span class="mathvista">MathVista</span>.
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="content has-text-centered">
+            <img src="static/images/source_dataset.png" alt="geometric reasoning" width="60%"/>
+            <p> Summary of the 31 different source datasets in <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+              <span class="mathvista">MathVista</span>.
+            </p>
+          </div>
+          <div class="content has-text-centered">
+            <img src="static/images/our_new_3_datasets.png" alt="geometric reasoning" width="70%"/>
+            <p> Examples of our newly annotated datasets: IQTest, FunctionQA, and PaperQA.</p>
+          </div> -->
+
           <p>
             All the data examples were divided into two subsets: testmini and test. 
             <!-- @PAN TODO: add download links -->
             <ul>
               <li><b>testmini</b>: 1,000 examples used for model development, validation, or for those with limited computing resources.</li>
               <li><b>test</b>: 5,141 examples for standard evaluation. Notably,
-                the answer labels for test will not be publicly released to prevent data contamination</li>
+                the answer labels for test will NOT be publicly released.</li>
             </ul>
-            You can download the data <a href="" target="_blank">here</a> and our github codebase <a href="" target="_blank">here</a>.
+            You can download the data <a href="https://huggingface.co/datasets/lupantech/MathVista" target="_blank">here</a> and our github codebase <a href="https://github.com/lupantech/MathVista" target="_blank">here</a>.
           </p>
+
         </div>
       </div>
     </div>
     <div class="columns is-centered">
-      <div class="column">
+      <div class="column" style="margin-right: -20rem;">
         <div class="content has-text-centered">
-          <img src="static/images/statistics.png" alt="data-overview" style="max-width: 60%;"/>
+          <img src="static/images/statistics.png" alt="data-overview" style="max-width: 50%;"/>
+          <p> 
+            Key statistics of <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+            <span class="mathvista">MathVista</span>.<br/>
+          </p> 
         </div>
       </div>
       <div class="column">
         <div class="content has-text-centered">
-          <img src="static/images/data-composition.png" alt="data-composition" style="max-width: 60%;"/>
+          <img src="static/images/data-composition.png" alt="data-composition" style="max-width: 56%;"/>
           <p>
-              <b>FQA</b>: figure question answering<br/>
-              <b>GPS</b>: geometry problem solving<br/>
-              <b>MWP</b>: math word problem<br/>
-              <b>TQA</b>: textbook question answering<br/>
-              <b>VQA</b>: visual question answering<br/>
+              Source dataset distribution of <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+              <span class="mathvista">MathVista</span>.<br/>
+              <b>FQA</b>: figure question answering,
+              <b>GPS</b>: geometry problem solving,<br/>
+              <b>MWP</b>: math word problem,
+              <b>TQA</b>: textbook question answering,<br/>
+              <b>VQA</b>: visual question answering.
           </p>
         </div>
       </div>
     </div>
+
+    
     <div class="columns is-centered m-6">
       <div class="column is-full has-text-centered content">
         <h2 class="title is-3">Examples</h2>
-        <p>One example for each reasoning skill required in <span class="mathvista">MathVista</span></p>
+        <p>One example for each <b>mathematical reasoning</b> skill required in <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+          <span class="mathvista">MathVista</span></p>
+
         <div id="results-carousel" class="carousel results-carousel">
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/examples/ari.png" alt="arithmetic reasoning" width="99%"/>
+              <img src="static/images/examples/ari.png" alt="arithmetic reasoning" width="60%"/>
               <p>Arithmetic Reasoning</p>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/examples/alg.png" alt="algebraic reasoning" width="99%"/>
+              <img src="static/images/examples/alg.png" alt="algebraic reasoning" width="60%"/>
               <p>Algebraic Reasoning</p>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/examples/geo.png" alt="geometric reasoning" width="99%"/>
+              <img src="static/images/examples/geo.png" alt="geometric reasoning" width="60%"/>
               <p>Geometric Reasoning</p>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/examples/log.png" alt="logical reasoning" width="99%"/>
+              <img src="static/images/examples/log.png" alt="logical reasoning" width="60%"/>
               <p>Logical Reasoning</p>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/examples/num.png" alt="numeric reasoning" width="99%"/>
+              <img src="static/images/examples/num.png" alt="numeric reasoning" width="60%"/>
               <p>Numeric Reasoning</p>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/examples/sta.png" alt="statistical reasoning" width="99%"/>
+              <img src="static/images/examples/sta.png" alt="statistical reasoning" width="60%"/>
               <p>Statistical Reasoning</p>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/examples/sci.png" alt="scientific reasoning" width="99%"/>
+              <img src="static/images/examples/sci.png" alt="scientific reasoning" width="60%"/>
               <p>Scientific Reasoning</p>
             </div>
           </div>
+
+          
+        </div>
+
+        <br><br>
+        <p>One example for each <b>visual context</b> type required in <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+          <span class="mathvista">MathVista</span></p>
+
+        <div id="results-carousel" class="carousel results-carousel">
+
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/contexts/1_Geometry_Diagram.png" alt="arithmetic reasoning" width="70%"/>
+              <p>Geometry Diagram</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/contexts/2_Synthetic_Scene.png" alt="arithmetic reasoning" width="70%"/>
+              <p>Synthetic Scene</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/contexts/3_Bar_Chart.png" alt="arithmetic reasoning" width="70%"/>
+              <p>Bar Chart</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/contexts/4_Natural_Image.png" alt="arithmetic reasoning" width="70%"/>
+              <p>Natural Image</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/contexts/5_Scientific_Figure.png" alt="arithmetic reasoning" width="70%"/>
+              <p>Scientific Figure</p>
+            </div>
+          </div>
+
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/contexts/6_Table.png" alt="arithmetic reasoning" width="70%"/>
+              <p>Table</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/contexts/7_Function_Plot.png" alt="arithmetic reasoning" width="70%"/>
+              <p>Function Plot</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/contexts/8_Abstract_Scene.png" alt="arithmetic reasoning" width="70%"/>
+              <p>Abstract Scene</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/contexts/9_Puzzle_Test.png" alt="arithmetic reasoning" width="70%"/>
+              <p>Puzzle Test</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/contexts/10_Scatter_Plot.png" alt="arithmetic reasoning" width="70%"/>
+              <p>Scatter Plot</p>
+            </div>
+          </div>
+          
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/contexts/11_Line_Plot.png" alt="arithmetic reasoning" width="70%"/>
+              <p>Line Plot</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/contexts/12_Pie_Chart.png" alt="arithmetic reasoning" width="70%"/>
+              <p>Pie Chart</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/contexts/13_Document_Image.png" alt="arithmetic reasoning" width="70%"/>
+              <p>Document Image</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/contexts/14_Medical_Image.png" alt="arithmetic reasoning" width="70%"/>
+              <p>Medical Image</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/contexts/15_Others.png" alt="arithmetic reasoning" width="30%"/>
+              <p>Others</p>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
     <div class="columns is-centered m-6">
       <div class="column is-full has-text-centered content">
         <h2 class="title is-3">Statistics</h2>
-        <p>Notable statistics of <span class="mathvista">MathVista</span></p>
+        <p>Notable statistics of <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+          <span class="mathvista">MathVista</span></p>
         <div id="results-carousel" class="carousel results-carousel">
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/statistics/context-dist.png" alt="context" class="stats-image"/>
-              <p>Distribution of visual context types within <span class="mathvista">MathVista</span></p>
+              <img src="static/images/statistics/context-dist.png" alt="context" class="stats-image">
+              <p>Distribution of visual context types within <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+                <span class="mathvista">MathVista</span></p>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
               <img src="static/images/statistics/category.png" alt="category" class="stats-image"/>
-              <p>Category distribution of problems within <span class="mathvista">MathVista</span></p>
+              <p>Category distribution of problems within <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+                <span class="mathvista">MathVista</span></p>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
               <img src="static/images/statistics/grade-levels.png" alt="grade" class="stats-image"/>
-              <p>Distribution of questions across different grade levels within <span class="mathvista">MathVista</span></p>
+              <p>Distribution of questions across different grade levels within <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+                <span class="mathvista">MathVista</span></p>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
               <img src="static/images/statistics/qs-len.png" alt="qs-len" class="stats-image"/>
-              <p>Distribution of the number of words per question in <span class="mathvista">MathVista</span>. Questions with a
+              <p>Distribution of the number of words per question in <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+                <span class="mathvista">MathVista</span>. Questions with a
                 length greater than 60 are categorized as 61 for visualization simplicity</p>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
               <img src="static/images/statistics/reasoning.png" alt="reasoning" class="stats-image"/>
-              <p>Portion of each mathematical reasoning type involved in the problems of <span class="mathvista">MathVista</span></p>
+              <p>Portion of each mathematical reasoning type involved in the problems of <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+                <span class="mathvista">MathVista</span></p>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
               <img src="static/images/statistics/reasoning-count.png" alt="reasoning-count" class="stats-image"/>
-              <p>Distribution of the number of mathematical reasoning types within <span class="mathvista">MathVista</span></p>
+              <p>Distribution of the number of mathematical reasoning types within <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+                <span class="mathvista">MathVista</span></p>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
               <img src="static/images/statistics/task-type.png" alt="task-type" class="stats-image"/>
-              <p>Task type distribution of problems within <span class="mathvista">MathVista</span></p>
+              <p>Task type distribution of problems within <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+                <span class="mathvista">MathVista</span></p>
             </div>
           </div>
         </div>
@@ -434,19 +647,35 @@
         <div id="results-carousel" class="carousel results-carousel">
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/results-figures/grade-lv.png" alt="grade-lv" width="99%"/>
+              <img src="static/images/results-figures/score_leaderboard.png" alt="grade-lv" width="60%"/>
+              <p>Accuracy scores of primary baselines on a tiny subset of <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+                <span class="mathvista">MathVista</span> (303 examples from
+                <b>testmini</b>). Both CoT GPT-4 and PoT GPT-4 are augmented with Bard captions and OCR text.</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/results-figures/bard_error.png" alt="grade-lv" width="85%"/>
+              <p>Error analysis of Bard results: (a) presents errors in answers and explanations; (b) delves
+                into the details of wrong explanations. Notations: “Answer” is “Ans.”, “Explanation” is “Exp.”,
+                “Partially Correct” is “Partial”, and “Not applicable” refers to unanswerable or indeterminate cases.</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/results-figures/grade-lv.png" alt="grade-lv" width="90%"/>
               <p>Average accuracy scores across different grade levels for leading foundation models</p>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/results-figures/contexts.png" alt="contexts" width="99%"/>
+              <img src="static/images/results-figures/contexts.png" alt="contexts" width="95%"/>
               <p>Accuracy scores of leading baselines across various visual contexts</p>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/results-figures/ablation.png" alt="geometric reasoning" width="99%"/>
+              <img src="static/images/results-figures/ablation.png" alt="geometric reasoning" width="90%"/>
               <p>Average accuracy scores of LLM baselines under various visual inputs</p>
             </div>
           </div>
@@ -459,7 +688,8 @@
         <div class="content">
           <div id="score-table" class="container is-striped"></div>
           <!-- <img src="static/images/result-scores.png" alt="leaderboard"/> -->
-          <p class="mt-3">Percent Accuracy
+          <p class="mt-3">Accuracy scores on the <b>testmini</b> subset of <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+            <span class="mathvista">MathVista</span>.
           <div class="is-flex is-justify-content-center">
             <div class="has-text-justified">
               <b>Task types:</b><br/>
@@ -489,7 +719,8 @@
     </div>
     <div class="container is-full has-text-centered content m-6" id="result-table">
       <h2 class="title is-3">Explorer</h2>
-      <p>Explore the outputs of each model on <span class="mathvista">MathVista</span></p>
+      <p>Explore the outputs of each model on <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+        <span class="mathvista">MathVista</span></p>
       <div class="level has-text-centered" style="position: sticky; top: 0; z-index: 20;">
         <div class="level-item box m-3" style="width: 30%; background: rgba(250, 250, 250, 1);">
           <button class="button" style="width: 100%; border: none; background: rgba(250, 250, 250, 1);" id="refresh-qids">
