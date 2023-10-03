@@ -1,7 +1,7 @@
 name_to_folder_map = {
   "instruct_blip2_vicuna13b": "instruct_blip2_vicuna13b",
   "idefics_9b_instruct": "idefics_9b_instruct",
-  "bard": "Bard",
+  "bard": "bard",
   "chatgpt_cot": "chatgpt_cot",
   "minigpt4": "minigpt4",
   "llava_llama_2_13b": "llava_llama_2_13b",
