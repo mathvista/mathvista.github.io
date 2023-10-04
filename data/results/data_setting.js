@@ -1,15 +1,15 @@
 name_to_folder_map = {
-  "instruct_blip2_vicuna13b": "instruct_blip2_vicuna13b",
-  "idefics_9b_instruct": "idefics_9b_instruct",
-  "bard": "bard",
-  "chatgpt_cot": "chatgpt_cot",
-  "minigpt4": "minigpt4",
-  "llava_llama_2_13b": "llava_llama_2_13b",
-  "gpt4_cot": "gpt4_cot",
-  "random_chance": "random_chance",
-  "mplugowl_ft_7b": "mplugowl_ft_7b",
-  "claude": "claude",
-  "llama_adapter_v2": "llama_adapter_v2",
-  "chatgpt_pot": "chatgpt_pot",
-  "gpt4_pot": "gpt4_pot"
+  "IDEFICS (9B-Instruct)": "IDEFICS (9B-Instruct)",
+  "InstructBLIP (Vicuna-7B)": "InstructBLIP (Vicuna-7B)",
+  "Random Chance": "Random Chance",
+  "Multimodal Bard": "Multimodal Bard",
+  "CoT GPT4 (Caption + OCR)": "CoT GPT4 (Caption + OCR)",
+  "CoT Claude (Caption + OCR)": "CoT Claude (Caption + OCR)",
+  "LLaVA-LLaMA-2 (13B)": "LLaVA-LLaMA-2 (13B)",
+  "CoT ChatGPT (Caption + OCR)": "CoT ChatGPT (Caption + OCR)",
+  "miniGPT4 (LLaMA-2-7B)": "miniGPT4 (LLaMA-2-7B)",
+  "PoT Chatgpt (Caption + OCR)": "PoT Chatgpt (Caption + OCR)",
+  "LLaMA-Adapter-V2 (7B)": "LLaMA-Adapter-V2 (7B)",
+  "PoT GPT4 (Caption + OCR)": "PoT GPT4 (Caption + OCR)",
+  "mPLUG-Owl (LLaMA-7B)": "mPLUG-Owl (LLaMA-7B)"
 }
