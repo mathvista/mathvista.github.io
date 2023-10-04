@@ -1,4 +1,4 @@
-PoT GPT4 (Caption + OCR) = {
+cache['PoT GPT4 (Caption + OCR)'] = {
   "1": {
     "response": "import math\n\n# Given values\nm = 0.40  # mass in kg\nv = 0.50  # speed in m/s\nk = 750  # spring constant in N/m\n\n# The kinetic energy of the canister is converted into potential energy in the spring\n# The equation for kinetic energy is (1/2)mv^2\n# The equation for potential energy in a spring is (1/2)kd^2\n# Setting these equal to each other and solving for d gives:\n\nd = math.sqrt((m*v**2)/k)\nprint(d)"
   },

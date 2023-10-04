@@ -1,1 +1,1 @@
-Random Chance = {}
+cache['Random Chance'] = {}

@@ -1,4 +1,4 @@
-LLaMA-Adapter-V2 (7B) = {
+cache['LLaMA-Adapter-V2 (7B)'] = {
   "1": {
     "response": "The spring constant $k$ is a constant, so the force exerted by the spring on the canister is also constant. The force exerted by the spring on the canister is $F = kx$, where $x$ is the displacement of the canister from its equilibrium position. The displacement of the canister from its equilibrium position is $x = vt$, where $t$ is the time the canister takes to travel the distance $v$. The spring force is then $F = k(0.50 \\mathrm{~m} / \\mathrm{s})(0.50 \\mathrm{~s}) = 0.25 \\mathrm{~N}$. The spring is compressed by a distance $d = 0.25 \\mathrm{~N} / k = 0.25 \\mathrm{~m} / 750 \\mathrm{~N} = 0.0035 \\mathrm{~m}$."
   },

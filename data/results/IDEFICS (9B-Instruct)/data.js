@@ -1,4 +1,4 @@
-IDEFICS (9B-Instruct) = {
+cache['IDEFICS (9B-Instruct)'] = {
   "1": {
     "response": "The answer is 0.015."
   },

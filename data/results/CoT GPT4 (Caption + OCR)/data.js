@@ -1,4 +1,4 @@
-CoT GPT4 (Caption + OCR) = {
+cache['CoT GPT4 (Caption + OCR)'] = {
   "1": {
     "response": "The work done by the spring is equal to the kinetic energy of the canister before it hits the spring. The work done by the spring is given by the formula W = 1/2 * k * d^2, where k is the spring constant and d is the distance the spring is compressed. The kinetic energy of the canister is given by the formula KE = 1/2 * m * v^2, where m is the mass of the canister and v is its velocity. Setting these two equal to each other gives:\n\n1/2 * k * d^2 = 1/2 * m * v^2\n\nSolving for d gives:\n\nd = sqrt((m * v^2) / k)\n\nSubstituting the given values gives:\n\nd = sqrt((0.40 kg * (0.50 m/s)^2) / 750 N/m)\n\nd = sqrt((0.40 kg * 0.25 m^2/s^2) / 750 N/m)\n\nd = sqrt(0.10 kg*m^2/s^2 / 750 N/m)\n\nd = sqrt(0.0001333 m^2)\n\nd = 0.0115 m\n\nSo, the spring is compressed by a distance of approximately 0.012 m or 1.2 cm."
   },

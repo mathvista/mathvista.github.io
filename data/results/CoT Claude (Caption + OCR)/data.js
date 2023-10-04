@@ -1,4 +1,4 @@
-CoT Claude (Caption + OCR) = {
+cache['CoT Claude (Caption + OCR)'] = {
   "1": {
     "response": "* m = 0.40 kg\n* v = 0.50 m/s\n* k = 750 N/m\n* The canister compresses the spring until it momentarily stops. \n* At this point, the spring force = the canister's initial momentum / time to stop\n   (since F\u0394t = \u0394p)\n* The canister's initial momentum = mv = (0.40 kg)(0.50 m/s) = 0.20 kg\u00b7m/s\n* Let's assume the time to stop is approximately 0.01 s. \n* Then the spring force = momentum / time \n    = (0.20 kg\u00b7m/s) / (0.01 s) = 20 N\n* By Hooke's law: F = kx\n    20 N = (750 N/m) x \n    x = 0.027 m\n* Therefore, the distance d that the spring is compressed is 0.03 m.\n\nThe distance d is 0.0 m."
   },

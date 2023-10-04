@@ -1,4 +1,4 @@
-mPLUG-Owl (LLaMA-7B) = {
+cache['mPLUG-Owl (LLaMA-7B)'] = {
   "1": {
     "response": "The spring is compressed by $d=2.00 \\mathrm{~mm}$ when the canister comes to a stop."
   },

@@ -45,8 +45,17 @@ $(document).ready(function() {
         });
     }
 
+    // load and display default models
     let qids = getRandomSubarray(num_output_qs);
-    refresh_table(qids);
+    let [folder , output_data] = read_data('Multimodal Bard');
+    output_data.addEventListener('load', function() {
+        refresh_table(qids);
+    });
+    [folder , output_data] = read_data('CoT GPT4 (Caption + OCR)');
+    output_data.addEventListener('load', function() {
+        refresh_table(qids);
+    });
+    // refresh_table(qids);
     let dropdown_displays = document.getElementsByClassName('dropdown-display');
     let refresh_button = document.getElementById('refresh-qids');
     refresh_button.addEventListener('click', function(event) {
@@ -68,8 +77,6 @@ $(document).ready(function() {
                 dropdown_displays[i].innerHTML = name;
                 let [folder, script_tag] = read_data(name);
                 script_tag.addEventListener('load', function() {
-                    cache[name] = eval(folder);
-                    console.log(cache['gpt4v']);
                     refresh_table(qids);
                 });
             });
@@ -90,7 +97,8 @@ $(document).ready(function() {
 })
 
 var cache = {};
-num_output_qs = 5;
+var num_output_qs = 5;
+// var 
 
 // dynamically links a js data file
 function read_data(model_name) {
@@ -127,9 +135,6 @@ function refresh_table(qids) {
     let model_names = [];
     for (let i = 0; i < dropdown_displays.length; i++) {
         model_names.push(dropdown_displays[i].innerText);
-    }
-    if ("gpt4v" === model_names[0] || "gpt4v" === model_names[1]) {
-        qids = getRandomSubarray(num_output_qs, Object.keys(cache['gpt4v']));
     }
     console.log(qids);
     console.log(model_names);

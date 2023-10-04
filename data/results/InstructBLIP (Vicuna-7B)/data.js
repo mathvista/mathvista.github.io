@@ -1,4 +1,4 @@
-InstructBLIP (Vicuna-7B) = {
+cache['InstructBLIP (Vicuna-7B)'] = {
   "1": {
     "response": "(A) 0.10 m (B) 0.20 m (C) 0.30 m (D) 0.40 m (E) 0.50 m"
   },

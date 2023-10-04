@@ -1,4 +1,4 @@
-PoT Chatgpt (Caption + OCR) = {
+cache['PoT Chatgpt (Caption + OCR)'] = {
   "1": {
     "response": "m = 0.40  # mass in kg\nv = 0.50  # speed in m/s\nk = 750  # spring constant in N/m\n\n# The work done by the spring force is equal to the change in kinetic energy of the canister\n# The initial kinetic energy is 1/2 * m * v^2\ninitial_kinetic_energy = 0.5 * m * v**2\n\n# At the moment the canister is stopped by the spring, all of its kinetic energy is converted into potential energy of the compressed spring\n# The potential energy of the spring is given by 1/2 * k * d^2, where d is the distance the spring is compressed\npotential_energy = 0.5 * k * d**2\n\n# Equating the initial kinetic energy to the potential energy, we can solve for d\nd = (2 * initial_kinetic_energy / k)**0.5\n\nd"
   },
