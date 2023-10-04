@@ -30,7 +30,8 @@ table#results.js-sort-9 tbody tr td:nth-child(10),
 table#results.js-sort-10 tbody tr td:nth-child(11),
 table#results.js-sort-11 tbody tr td:nth-child(12),
 table#results.js-sort-12 tbody tr td:nth-child(13),
-table#results.js-sort-13 tbody tr td:nth-child(14) {
+table#results.js-sort-13 tbody tr td:nth-child(14),
+table#results.js-sort-14 tbody tr td:nth-child(15) {
     background: #dee;
 }
 
