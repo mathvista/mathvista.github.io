@@ -77,3 +77,8 @@ table#results.js-sort-14 tbody tr td:nth-child(15) {
     text-decoration: underline;
     cursor: pointer;
 }
+
+.best-score-text {
+    color: #C6011F
+    /* color: #3457D5 */
+}
