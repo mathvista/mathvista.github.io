@@ -300,17 +300,16 @@
         <h2 class="title is-3">Introduction</h2>
         <div class="content has-text-justified">
           <p>
-            Although Large Language Models (LLMs) and Large Multimodal Models (LMMs) exhibit impressive skills in various domains, their ability for mathematical reasoning within visual contexts has not been formally examined. Equipping LLMs and LMMs with this capability is vital for general-purpose AI assistants and showcases promising potential in education, data analysis, and scientific discovery.
+          <b>Large Language Models (LLMs)</b> and <b>Large Multimodal Models (LMMs)</b> exhibit impressive problem-solving skills in many tasks and domains, but their ability in mathematical reasoning in visual contexts has not been systematically studied.
           </p>
           <p>
-            To bridge this gap, we present 
-              <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
-              <span class="mathvista">MathVista</span>, a benchmark designed to amalgamate challenges from <b>diverse mathematical and visual tasks</b>. We first taxonomize the key task types, reasoning skills, and visual contexts from the literature to guide our selection from <b>28 existing math-focused and visual question answering datasets</b>. Then, <b>we construct three new datasets, IQTest, FunctionQA, and PaperQA</b>, to accommodate for missing types of visual contexts. The problems featured often require deep visual understanding beyond OCR or image captioning, and compositional reasoning with rich domain-specific tools, thus posing a notable challenge to existing models.
+            To bridge this gap, we present <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+            <span class="mathvista">MathVista</span>, a benchmark designed to combine challenges from diverse mathematical and visual tasks. It consists of <b>6,141 examples</b>, derived from <b>28 existing multimodal datasets</b> involving mathematics and <b>3 newly created datasets</b> (i.e., <b>IQTest, FunctionQA, and PaperQA</b>). Completing these tasks requires fine-grained, deep visual understanding and compositional reasoning, which all state-of-the-art foundation models find challenging. 
           </p>
           <p>
-            We conduct <b>a comprehensive evaluation of 11 prominent open-source and proprietary foundation models</b> (LLMs, LLMs augmented with tools, and LMMs), and <b>early experiments with GPT-4V</b>. The best-performing model, Multimodal Bard, achieves only <b>58%</b> of human performance (34.8% vs 60.3%), indicating ample room for further improvement. Given this significant gap, <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
-            <span class="mathvista">MathVista</span> fuels future research in the development of general-purpose AI agents capable of tackling mathematically intensive and visually rich real-world tasks. Preliminary tests show that <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
-            <span class="mathvista">MathVista</span> also presents challenges to GPT-4V, underscoring the benchmark's importance.
+            With <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+            <span class="mathvista">MathVista</span>, we have conducted <b>a comprehensive, quantitative evaluation of 12 prominent foundation models</b>. The best-performing <b>GPT-4V</b> model achieves an overall accuracy of <b>49.9%</b>, substantially outperforming Bard, the second-best performer, by <b>15.1%</b>. Our in-depth analysis reveals that the superiority of <b>GPT-4V</b> is mainly attributed to its enhanced visual perception and mathematical reasoning. However, <b>GPT-4V</b> still falls short of human performance by <b>10.4%</b>, as it often struggles to understand complex figures and perform rigorous reasoning. This significant gap underscores the critical role that <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+            <span class="mathvista">MathVista</span> will play in the development of general-purpose AI agents capable of tackling mathematically intensive and visually rich real-world tasks. We further explore the new ability of <b>self-verification</b>, the use of <b>self-consistency</b>, and the  <b>goal-directed multi-turn human-AI dialogues</b>, highlighting the promising potential of GPT-4V for future research. 
           </p>
         </div>
       </div>
