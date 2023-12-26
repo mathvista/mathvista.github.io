@@ -84,16 +84,16 @@ $(document).ready(function() {
         }
     }
 
-    // create the leaderboard
-    let leaderboard = new Tabulator("#score-table", {
-        data:score_table, //assign data to table
-        layout:"fitDataTable",
-        // layout:"fitColumns",
-        initialSort:[
-            {column:"ALL", dir:"desc"}, //sort by this first
-        ],
-        autoColumns:true, //create columns from data field names
-    });
+    // // create the leaderboard
+    // let leaderboard = new Tabulator("#score-table", {
+    //     data:score_table, //assign data to table
+    //     layout:"fitDataTable",
+    //     // layout:"fitColumns",
+    //     initialSort:[
+    //         {column:"ALL", dir:"desc"}, //sort by this first
+    //     ],
+    //     autoColumns:true, //create columns from data field names
+    // });
 })
 
 var cache = {};

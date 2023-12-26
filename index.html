@@ -42,8 +42,9 @@
   <script defer src="./static/js/fontawesome.all.min.js"></script>
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
-  <script src="./static/js/index.js"></script>
+  <script src="./static/js/explorer-index.js"></script>
   <script src="./static/js/question_card.js"></script>
+  <script src="./static/js/leaderboard_testmini.js"></script>  
 
   <script src="./data/results/output_folders.js" defer></script>
   <script src="./data/results/model_scores.js" defer></script>
@@ -347,12 +348,15 @@
     
     <div class="columns is-centered">
       <div class="column is-full has-text-centered content">
-        <h2 class="title is-3" id="leaderboard">Leaderboard</h2>
+        <h2 class="title is-3" id="leaderboard">Leaderboard on testmini</h2>
         <div class="content">
           <p class="mt-3">Accuracy scores on the <b>testmini</b> subset (1,000 examples) of <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
             <span class="mathvista">MathVista</span>.
           </p>
-            <table class="js-sort-table" id="results">
+
+          <div id="testmini_leaderboard"></div>
+
+          <!-- <table class="js-sort-table" id="results">
               <tr>
                   <td class="js-sort-number"><strong>#</strong></td>
                   <td class="js-sort-number"><strong>Model</strong></td>
@@ -833,7 +837,7 @@
                 <td>17.2</td>
                 <td>16.3</td>                               
               </tr>                                                              
-          </table>
+          </table> -->
 
           <!-- <p class="mt-3">Accuracy scores on the <b>testmini</b> subset (1,000 examples) of <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
             <span class="mathvista">MathVista</span>.
