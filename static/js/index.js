@@ -51,7 +51,7 @@ $(document).ready(function() {
     output_data.addEventListener('load', function() {
         refresh_table(qids);
     });
-    [folder , output_data] = read_data('CoT GPT4 (Caption + OCR)');
+    [folder , output_data] = read_data('CoT GPT4 (Caption+OCR)');
     output_data.addEventListener('load', function() {
         refresh_table(qids);
     });
@@ -66,9 +66,9 @@ $(document).ready(function() {
     // let dropdown_displays = document.getElementsByClassName('dropdown-display');
     let dropdown_contents = document.getElementsByClassName('dropdown-content');
     for (let i = 0; i < dropdown_contents.length; i++) {
-        // add an <a> tag to the dropdown-content for each key in name_to_folder_map
+        // add an <a> tag to the dropdown-content for each key in model_output_folder_list
         let dropdown_content = dropdown_contents[i];
-        for (let name in name_to_folder_map) {
+        for (let name in model_output_folder_list) {
             let a = document.createElement('a');
             a.classList.add('dropdown-item');
             a.innerHTML = '<b> ' + name + ' </b>';
@@ -103,7 +103,7 @@ var num_output_qs = 5;
 // dynamically links a js data file
 function read_data(model_name) {
     console.log('loading data for ' + model_name);
-    let folder = name_to_folder_map[model_name];
+    let folder = model_output_folder_list[model_name];
     // dynamically link the js file
     let script = document.createElement('script');
     script.src = './data/results/' + folder + '/data.js';
