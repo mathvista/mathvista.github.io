@@ -44,8 +44,8 @@
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/explorer-index.js"></script>
   <script src="./static/js/question_card.js"></script>
-  <script src="./static/js/leaderboard_testmini.js"></script>  
 
+  <script src="./static/js/leaderboard_testmini.js"></script>  
   <script src="./data/results/output_folders.js" defer></script>
   <script src="./data/results/model_scores.js" defer></script>
 
@@ -839,65 +839,169 @@
               </tr>                                                              
           </table> -->
 
-          <!-- <p class="mt-3">Accuracy scores on the <b>testmini</b> subset (1,000 examples) of <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
-            <span class="mathvista">MathVista</span>.
-          </p> -->
-            <b>Human Performance*:</b> Average human performance from AMT annotators who have high school diplomas or above.
-            <br>
-            <b>Method types:</b> <b>LMM 🖼️:</b> Large Multimodal Model, <b>Tool 🛠️:</b> Tool-augmented Large Language Model.
-            <br>
-            <b>Task types:</b> <b>FQA:</b> figure QA,
-            <b>GPS:</b> geometry problem solving,
-            <b>MWP:</b> math word problem,
-            <b>TQA:</b> textbook QA,
-            <b>VQA:</b> visual QA.
-            <br>
-            <b>Math reasoning types:</b> 
-            <b>ALG:</b> algebraic,
-            <b>ARI:</b> arithmetic,
-            <b>GEO:</b> geometry,
-            <b>LOG:</b> logical ,
-            <b>NUM:</b> numeric,
-            <b>SCI:</b> scientific,
-            <b>STA:</b> statistical.
-          <!-- <div class="is-flex is-justify-content-center">
-            <div class="has-text-justified">
-              <b>Method types:</b><br/>
-              <ul>
-                <li><b>LMM 🖼️:</b> Large Multimodal Model</li>
-                <li><b>Tool 🛠️:</b> Tool-augmented Large Language Model</li>
-              </ul>
-            </div>
-            <div class="has-text-justified">
-              <b>Task types:</b><br/>
-              <ul>
-                <li><b>FQA:</b> figure question answering</li>
-                <li><b>GPS:</b> geometry problem solving</li>
-                <li><b>MWP:</b> math word problem</li>
-                <li><b>TQA:</b> textbook question answering</li>
-                <li><b>VQA:</b> visual question answering</li>
-              </ul>
-            </div>
-            <div class="has-text-justified">
-              <b>Mathematical reasoning types:</b><br/> 
-              <ul>
-                <li><b>ALG:</b> algebraic reasoning</li>
-                <li><b>ARI:</b> arithmetic reasoning</li>
-                <li><b>GEO:</b> geometry reasoning</li>
-                <li><b>LOG:</b> logical reasoning</li>
-                <li><b>NUM:</b> numeric commonsense</li>
-                <li><b>SCI:</b> scientific reasoning</li>
-                <li><b>STA:</b> statistical reasoning</li>
-              </ul>
-            </div>
-          </div> -->
+          <!-- <b>Human Performance*:</b> Average human performance from AMT annotators who have high school diplomas or above.
+          <br>
+          <b>Method types:</b> <b>LMM 🖼️:</b> Large Multimodal Model, <b>Tool 🛠️:</b> Tool-augmented Large Language Model.
+          <br>
+          <b>Task types:</b> <b>FQA:</b> figure QA,
+          <b>GPS:</b> geometry problem solving,
+          <b>MWP:</b> math word problem,
+          <b>TQA:</b> textbook QA,
+          <b>VQA:</b> visual QA.
+          <br>
+          <b>Math reasoning types:</b> 
+          <b>ALG:</b> algebraic,
+          <b>ARI:</b> arithmetic,
+          <b>GEO:</b> geometry,
+          <b>LOG:</b> logical ,
+          <b>NUM:</b> numeric,
+          <b>SCI:</b> scientific,
+          <b>STA:</b> statistical.
           <br>
           <br>
           <div>
           <p>🚨 To submit your results to the leaderboard, please send to <a href="mailto:lupantech@gmail.com">this email</a> with your result json files.
             </p>
+          </div> -->
+
+        </div>
+
+        <h2 class="title is-3" id="leaderboard_test">Leaderboard on test</h2>
+        <div class="content">
+          <p class="mt-3">Accuracy scores on the <b>test</b> subset (5,141 examples) of <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
+            <span class="mathvista">MathVista</span>.
+          </p>
+
+          <table class="js-sort-table" id="results">
+            <tr>
+                <td class="js-sort-number"><strong>#</strong></td>
+                <td class="js-sort-number"><strong>Model</strong></td>
+                <td class="js-sort-number"><strong>Method</strong></td>
+                <td class="js-sort-number"><strong>Source</strong></td>
+                <td class="js-sort-number"><strong>Date</strong></td>
+                <td class="js-sort-number"><strong><u>ALL</u></strong></td>
+                <td class="js-sort-number"><strong>FQA</strong></td>
+                <td class="js-sort-number"><strong>GPS</strong></td>
+                <td class="js-sort-number"><strong>MWP</strong></td>
+                <td class="js-sort-number"><strong>TQA</strong></td>
+                <td class="js-sort-number"><strong>VQA</strong></td>
+                <td class="js-sort-number"><strong>ALG</strong></td>
+                <td class="js-sort-number"><strong>ARI</strong></td>
+                <td class="js-sort-number"><strong>GEO</strong></td>
+                <td class="js-sort-number"><strong>LOG</strong></td>
+                <td class="js-sort-number"><strong>NUM</strong></td>
+                <td class="js-sort-number"><strong>SCI</strong></td>
+                <td class="js-sort-number"><strong>STA</strong></td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td><b class="best-score-text">PoT GPT-4 (Caption+OCR) 🥇</b></td>
+              <td>Tool 🛠️</td>
+              <td><a href="https://arxiv.org/abs/2310.02255" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>2023-10-03</td>
+              <td><b class="best-score-text">31.74</b></td>
+              <td>27.6</td>
+              <td>37.4</td>
+              <td>23.9</td>
+              <td>43.0</td>
+              <td>30.3</td>
+              <td>37.1</td>
+              <td>27.9</td>
+              <td>37.5</td>
+              <td>22.7</td>
+              <td>15.8</td>
+              <td>44.5</td>
+              <td>31.9</td>                                  
+            </tr>
+            <tr>
+              <td>2</td>
+              <td><b class="best-score-text">CoT GPT4 (Caption+OCR) 🥈</b></td>
+              <td>Tool 🛠️</td>
+              <td><a href="https://arxiv.org/abs/2310.02255" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>2023-10-03</td>
+              <td><b class="best-score-text">30.50</b></td>
+              <td>27.2</td>
+              <td>35.9</td>
+              <td>21.3</td>
+              <td>43.1</td>
+              <td>28.2</td>
+              <td>35.7</td>
+              <td>25.2</td>
+              <td>35.8</td>
+              <td>24.7</td>
+              <td>15.4</td>
+              <td>47.3</td>
+              <td>31.3</td>                               
+            </tr>
+            <tr>
+              <td>3</td>
+              <td><b class="best-score-text">LLaVA (LLaMA-2-13B) 🥉</b></td>
+              <td>LMM 🖼️</td>
+              <td><a href="https://arxiv.org/abs/2310.02255" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>2023-10-03</td>
+              <td><b class="best-score-text">25.40</b></td>
+              <td>22.9</td>
+              <td>24.6</td>
+              <td>18.1</td>
+              <td>35.8</td>
+              <td>29.7</td>
+              <td>26.9</td>
+              <td>22.5</td>
+              <td>24.4</td>
+              <td>19.1</td>
+              <td>19.1</td>
+              <td>34.7</td>
+              <td>21.6</td>                                 
+            </tr>
+            <tr>
+              <td>4</td>
+              <td><b>Random Chance</b></td>
+              <td>-</td>
+              <td><a href="https://arxiv.org/abs/2310.02255" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>2023-10-03</td>
+              <td><b>17.86</b></td>
+              <td>15.5</td>
+              <td>24.1</td>
+              <td>4.5</td>
+              <td>23.4</td>
+              <td>24.3</td>
+              <td>25.8</td>
+              <td>13.8</td>
+              <td>22.7</td>
+              <td>13.4</td>
+              <td>8.8</td>
+              <td>15.8</td>
+              <td>14.3</td>                                                  
+            </tr>                                                      
+        </table>
+
+          <b>Human Performance*:</b> Average human performance from AMT annotators who have high school diplomas or above.
+          <br>
+          <b>Method types:</b> <b>LMM 🖼️:</b> Large Multimodal Model, <b>Tool 🛠️:</b> Tool-augmented Large Language Model.
+          <br>
+          <b>Task types:</b> <b>FQA:</b> figure QA,
+          <b>GPS:</b> geometry problem solving,
+          <b>MWP:</b> math word problem,
+          <b>TQA:</b> textbook QA,
+          <b>VQA:</b> visual QA.
+          <br>
+          <b>Math reasoning types:</b> 
+          <b>ALG:</b> algebraic,
+          <b>ARI:</b> arithmetic,
+          <b>GEO:</b> geometry,
+          <b>LOG:</b> logical ,
+          <b>NUM:</b> numeric,
+          <b>SCI:</b> scientific,
+          <b>STA:</b> statistical.
+          <br>
+          <br>
+          <div>
+          <p>🚨 To submit your results to the leaderboard, please send to <a href="mailto:lupantech@gmail.com">this email</a> with your result json files.</p>
+          <p>🚨 For more submission details, please refer to <a href="https://github.com/lupantech/MathVista?tab=readme-ov-file#-leaderboard-">this link</a> and <a href="https://github.com/lupantech/MathVista?tab=readme-ov-file#-evaluations-on-mathvista">this link</a>.
+          </p>
           </div>
         </div>
+
       </div>
     </div>
 
