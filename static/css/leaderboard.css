@@ -78,6 +78,11 @@ table#results.js-sort-14 tbody tr td:nth-child(15) {
     cursor: pointer;
 }
 
+.js-sort:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .best-score-text {
     color: #C6011F
     /* color: #3457D5 */
