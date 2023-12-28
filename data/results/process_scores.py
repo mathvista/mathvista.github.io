@@ -49,6 +49,29 @@ for model in models:
     out['Model'] = model
     table.append(out)
 
+    new_obj = {
+        "average": {"accuracy": obj['average']['accuracy']},
+        "task": {
+            "figure question answering": {"accuracy": obj['task']['figure question answering']['accuracy']},
+            "geometry problem solving": {"accuracy": obj['task']['geometry problem solving']['accuracy']},
+            "math word problem": {"accuracy": obj['task']['math word problem']['accuracy']},
+            "textbook question answering": {"accuracy": obj['task']['textbook question answering']['accuracy']},
+            "visual question answering": {"accuracy": obj['task']['visual question answering']['accuracy']},
+        },
+        "skills": {
+            "algebraic reasoning": {"accuracy": obj['skills']['algebraic reasoning']['accuracy']},
+            "arithmetic reasoning": {"accuracy": obj['skills']['arithmetic reasoning']['accuracy']},
+            "geometry reasoning": {"accuracy": obj['skills']['geometry reasoning']['accuracy']},
+            "logical reasoning": {"accuracy": obj['skills']['logical reasoning']['accuracy']},
+            "numeric commonsense": {"accuracy": obj['skills']['numeric commonsense']['accuracy']},
+            "scientific reasoning": {"accuracy": obj['skills']['scientific reasoning']['accuracy']},
+            "statistical reasoning": {"accuracy": obj['skills']['statistical reasoning']['accuracy']},
+        }
+    }
+    # print(new_obj)
+    with open(score_file, 'w') as f:
+        json.dump(new_obj, f, indent=2)
+
 ## sort by ALL and adjust score_table to ensure "Human Performance*" is the first row
 # the model to be removed
 model_to_remove = 'Human Performance*'
@@ -78,25 +101,3 @@ with open('model_scores.js', 'w+') as f:
     f.write("score_table = " + json.dumps(score_table, indent=2))
 
 
-        # new_obj = {
-        #     "average": {"accuracy": obj['average']['accuracy']},
-        #     "task": {
-        #         "figure question answering": {"accuracy": obj['task']['figure question answering']['accuracy']},
-        #         "geometry problem solving": {"accuracy": obj['task']['geometry problem solving']['accuracy']},
-        #         "math word problem": {"accuracy": obj['task']['math word problem']['accuracy']},
-        #         "textbook question answering": {"accuracy": obj['task']['textbook question answering']['accuracy']},
-        #         "visual question answering": {"accuracy": obj['task']['visual question answering']['accuracy']},
-        #     },
-        #     "skills": {
-        #         "algebraic reasoning": {"accuracy": obj['skills']['algebraic reasoning']['accuracy']},
-        #         "arithmetic reasoning": {"accuracy": obj['skills']['arithmetic reasoning']['accuracy']},
-        #         "geometry reasoning": {"accuracy": obj['skills']['geometry reasoning']['accuracy']},
-        #         "logical reasoning": {"accuracy": obj['skills']['logical reasoning']['accuracy']},
-        #         "numeric commonsense": {"accuracy": obj['skills']['numeric commonsense']['accuracy']},
-        #         "scientific reasoning": {"accuracy": obj['skills']['scientific reasoning']['accuracy']},
-        #         "statistical reasoning": {"accuracy": obj['skills']['statistical reasoning']['accuracy']},
-        #     }
-        # }
-        # # print(new_obj)
-        # with open(score_file, 'w') as f:
-        #     json.dump(new_obj, f, indent=2)

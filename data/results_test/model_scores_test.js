@@ -1,6 +1,25 @@
 score_table_test = {
   "1": {
-    "Model": "PoT GPT-4 (Caption+OCR) \ud83e\udd47",
+    "Model": "Qwen-VL-Plus \ud83e\udd47",
+    "Method": "LMM \ud83d\uddbc\ufe0f",
+    "Source": "https://github.com/QwenLM/Qwen-VL",
+    "Date": "2023-12-21",
+    "ALL": 44.33,
+    "FQA": 55.9,
+    "GPS": 34.7,
+    "MWP": 29.7,
+    "TQA": 58.8,
+    "VQA": 42.4,
+    "ALG": 40.7,
+    "ARI": 35.4,
+    "GEO": 36.6,
+    "LOG": 21.6,
+    "NUM": 30.4,
+    "SCI": 55.9,
+    "STA": 56.3
+  },
+  "2": {
+    "Model": "PoT GPT-4 (Caption+OCR) \ud83e\udd48",
     "Method": "Tool \ud83d\udee0\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
     "Date": "2023-10-03",
@@ -18,8 +37,8 @@ score_table_test = {
     "SCI": 44.5,
     "STA": 31.9
   },
-  "2": {
-    "Model": "CoT GPT4 (Caption+OCR) \ud83e\udd48",
+  "3": {
+    "Model": "CoT GPT4 (Caption+OCR) \ud83e\udd49",
     "Method": "Tool \ud83d\udee0\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
     "Date": "2023-10-03",
@@ -37,8 +56,8 @@ score_table_test = {
     "SCI": 47.3,
     "STA": 31.3
   },
-  "3": {
-    "Model": "LLaVA (LLaMA-2-13B) \ud83e\udd49",
+  "4": {
+    "Model": "LLaVA (LLaMA-2-13B)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
     "Date": "2023-10-03",
@@ -56,7 +75,7 @@ score_table_test = {
     "SCI": 34.7,
     "STA": 21.6
   },
-  "4": {
+  "5": {
     "Model": "Random Chance",
     "Method": "-",
     "Source": "https://arxiv.org/abs/2310.02255",
