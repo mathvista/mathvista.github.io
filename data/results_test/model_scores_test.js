@@ -19,7 +19,26 @@ score_table_test = {
     "STA": 56.3
   },
   "2": {
-    "Model": "PoT GPT-4 (Caption+OCR) \ud83e\udd48",
+    "Model": "SPHINX-MoE \ud83e\udd48",
+    "Method": "MoE \ud83e\udd16",
+    "Source": "https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX",
+    "Date": "2024-01-12",
+    "ALL": 42.68,
+    "FQA": 50.3,
+    "GPS": 29.7,
+    "MWP": 40.9,
+    "TQA": 49.3,
+    "VQA": 43.3,
+    "ALG": 33.9,
+    "ARI": 43.0,
+    "GEO": 29.1,
+    "LOG": 14.4,
+    "NUM": 26.3,
+    "SCI": 46.9,
+    "STA": 51.2
+  },
+  "3": {
+    "Model": "PoT GPT-4 (Caption+OCR) \ud83e\udd49",
     "Method": "Tool \ud83d\udee0\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
     "Date": "2023-10-03",
@@ -37,8 +56,8 @@ score_table_test = {
     "SCI": 44.5,
     "STA": 31.9
   },
-  "3": {
-    "Model": "CoT GPT4 (Caption+OCR) \ud83e\udd49",
+  "4": {
+    "Model": "CoT GPT4 (Caption+OCR)",
     "Method": "Tool \ud83d\udee0\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
     "Date": "2023-10-03",
@@ -56,7 +75,7 @@ score_table_test = {
     "SCI": 47.3,
     "STA": 31.3
   },
-  "4": {
+  "5": {
     "Model": "LLaVA (LLaMA-2-13B)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -75,7 +94,7 @@ score_table_test = {
     "SCI": 34.7,
     "STA": 21.6
   },
-  "5": {
+  "6": {
     "Model": "Random Chance",
     "Method": "-",
     "Source": "https://arxiv.org/abs/2310.02255",
