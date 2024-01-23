@@ -1,6 +1,25 @@
 score_table_test = {
   "1": {
-    "Model": "Qwen-VL-Plus \ud83e\udd47",
+    "Model": "InternLM-XComposer2-VL \ud83e\udd47",
+    "Method": "LMM \ud83d\uddbc\ufe0f",
+    "Source": "https://github.com/InternLM/InternLM-XComposer",
+    "Date": "2024-01-22",
+    "ALL": 57.93,
+    "FQA": 53.9,
+    "GPS": 56.4,
+    "MWP": 77.1,
+    "TQA": 58.4,
+    "VQA": 43.2,
+    "ALG": 54.8,
+    "ARI": 57.6,
+    "GEO": 58.0,
+    "LOG": 16.5,
+    "NUM": 47.6,
+    "SCI": 59.1,
+    "STA": 62.5
+  },
+  "2": {
+    "Model": "Qwen-VL-Plus \ud83e\udd48",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://github.com/QwenLM/Qwen-VL",
     "Date": "2023-12-21",
@@ -18,11 +37,11 @@ score_table_test = {
     "SCI": 55.9,
     "STA": 56.3
   },
-  "2": {
-    "Model": "SPHINX-MoE \ud83e\udd48",
+  "3": {
+    "Model": "SPHINX-MoE \ud83e\udd49",
     "Method": "MoE \ud83e\udd16",
     "Source": "https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX",
-    "Date": "2024-01-12",
+    "Date": "2024-01-13",
     "ALL": 42.68,
     "FQA": 50.3,
     "GPS": 29.7,
@@ -37,8 +56,8 @@ score_table_test = {
     "SCI": 46.9,
     "STA": 51.2
   },
-  "3": {
-    "Model": "PoT GPT-4 (Caption+OCR) \ud83e\udd49",
+  "4": {
+    "Model": "PoT GPT-4 (Caption+OCR)",
     "Method": "Tool \ud83d\udee0\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
     "Date": "2023-10-03",
@@ -56,7 +75,7 @@ score_table_test = {
     "SCI": 44.5,
     "STA": 31.9
   },
-  "4": {
+  "5": {
     "Model": "CoT GPT4 (Caption+OCR)",
     "Method": "Tool \ud83d\udee0\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -75,7 +94,7 @@ score_table_test = {
     "SCI": 47.3,
     "STA": 31.3
   },
-  "5": {
+  "6": {
     "Model": "LLaVA (LLaMA-2-13B)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -94,7 +113,7 @@ score_table_test = {
     "SCI": 34.7,
     "STA": 21.6
   },
-  "6": {
+  "7": {
     "Model": "Random Chance",
     "Method": "-",
     "Source": "https://arxiv.org/abs/2310.02255",
