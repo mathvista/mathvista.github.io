@@ -3,7 +3,10 @@ import json
 
 def formalize(value):
     # round to 1 decimal places
-    return round(float(value), 1)
+    try:
+        return round(float(value), 1)
+    except:
+        return value
 
 
 def extract_import_values(meta, obj):
