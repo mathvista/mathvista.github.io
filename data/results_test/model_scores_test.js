@@ -1,6 +1,6 @@
 score_table_test = {
   "1": {
-    "Model": "InternLM-XComposer2-VL \ud83e\udd47",
+    "Model": "InternLM-XComposer2-VL-7B \ud83e\udd47",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://github.com/InternLM/InternLM-XComposer",
     "Date": "2024-01-22",
