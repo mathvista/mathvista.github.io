@@ -19,7 +19,26 @@ score_table = {
     "STA": 63.9
   },
   "1": {
-    "Model": "InternLM-XComposer2-VL-7B \ud83e\udd47",
+    "Model": "InternVL-Chat-V1.2-Plus \ud83e\udd47",
+    "Method": "LMM \ud83d\uddbc\ufe0f",
+    "Source": "https://arxiv.org/abs/2312.14238",
+    "Date": "2024-02-22",
+    "ALL": 59.9,
+    "FQA": 51.7,
+    "GPS": 61.1,
+    "MWP": 79.6,
+    "TQA": 52.5,
+    "VQA": 57.0,
+    "ALG": 54.5,
+    "ARI": 63.2,
+    "GEO": 61.1,
+    "LOG": 16.2,
+    "NUM": 48.6,
+    "SCI": 55.7,
+    "STA": 60.8
+  },
+  "2": {
+    "Model": "InternLM-XComposer2-VL-7B \ud83e\udd48",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://github.com/InternLM/InternLM-XComposer",
     "Date": "2024-01-22",
@@ -37,8 +56,8 @@ score_table = {
     "SCI": 59.0,
     "STA": 64.1
   },
-  "2": {
-    "Model": "Gemini Ultra \ud83e\udd48",
+  "3": {
+    "Model": "Gemini 1.0 Ultra \ud83e\udd49",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2312.11805",
     "Date": "2023-12-06",
@@ -56,8 +75,27 @@ score_table = {
     "SCI": 62.3,
     "STA": 59.5
   },
-  "3": {
-    "Model": "GPT-4V (Playground) \ud83e\udd49",
+  "4": {
+    "Model": "Gemini 1.5 Pro",
+    "Method": "LMM \ud83d\uddbc\ufe0f",
+    "Source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf",
+    "Date": "2024-02-15",
+    "ALL": 52.1,
+    "FQA": "-",
+    "GPS": "-",
+    "MWP": "-",
+    "TQA": "-",
+    "VQA": "-",
+    "ALG": "-",
+    "ARI": "-",
+    "GEO": "-",
+    "LOG": "-",
+    "NUM": "-",
+    "SCI": "-",
+    "STA": "-"
+  },
+  "5": {
+    "Model": "GPT-4V (Playground)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
     "Date": "2023-10-15",
@@ -75,7 +113,26 @@ score_table = {
     "SCI": 63.1,
     "STA": 55.8
   },
-  "4": {
+  "6": {
+    "Model": "InternVL-Chat-V1.2",
+    "Method": "LMM \ud83d\uddbc\ufe0f",
+    "Source": "https://arxiv.org/abs/2312.14238",
+    "Date": "2024-02-22",
+    "ALL": 47.7,
+    "FQA": 50.9,
+    "GPS": 61.1,
+    "MWP": 30.6,
+    "TQA": 48.1,
+    "VQA": 44.7,
+    "ALG": 52.3,
+    "ARI": 36.5,
+    "GEO": 58.2,
+    "LOG": 18.9,
+    "NUM": 30.6,
+    "SCI": 54.9,
+    "STA": 51.8
+  },
+  "7": {
     "Model": "LLaVA-1.6-34B",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://llava-vl.github.io/blog/2024-01-30-llava-1-6/",
@@ -94,8 +151,8 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "5": {
-    "Model": "Gemini Pro",
+  "8": {
+    "Model": "Gemini 1.0 Pro",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2312.11805",
     "Date": "2023-12-06",
@@ -113,7 +170,7 @@ score_table = {
     "SCI": 54.9,
     "STA": 56.8
   },
-  "6": {
+  "9": {
     "Model": "Qwen-VL-Plus",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://github.com/QwenLM/Qwen-VL",
@@ -132,7 +189,7 @@ score_table = {
     "SCI": 59.0,
     "STA": 56.1
   },
-  "7": {
+  "10": {
     "Model": "SPHINX-MoE",
     "Method": "MoE \ud83e\udd16",
     "Source": "https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX",
@@ -151,7 +208,7 @@ score_table = {
     "SCI": 50.8,
     "STA": 50.8
   },
-  "8": {
+  "11": {
     "Model": "SPHINX (V2)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX",
@@ -170,7 +227,7 @@ score_table = {
     "SCI": 43.4,
     "STA": 51.5
   },
-  "9": {
+  "12": {
     "Model": "Multimodal Bard",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -189,7 +246,7 @@ score_table = {
     "SCI": 47.5,
     "STA": 33.0
   },
-  "10": {
+  "13": {
     "Model": "PoT GPT-4 (Caption+OCR)",
     "Method": "Tool \ud83d\udee0\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -208,7 +265,7 @@ score_table = {
     "SCI": 44.3,
     "STA": 37.9
   },
-  "11": {
+  "14": {
     "Model": "CoT Claude (Caption+OCR)",
     "Method": "Tool \ud83d\udee0\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -227,7 +284,7 @@ score_table = {
     "SCI": 50.8,
     "STA": 37.2
   },
-  "12": {
+  "15": {
     "Model": "CoT GPT4 (Caption+OCR)",
     "Method": "Tool \ud83d\udee0\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -246,7 +303,7 @@ score_table = {
     "SCI": 58.2,
     "STA": 37.9
   },
-  "13": {
+  "16": {
     "Model": "CoT ChatGPT (Caption+OCR)",
     "Method": "Tool \ud83d\udee0\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -265,8 +322,8 @@ score_table = {
     "SCI": 54.9,
     "STA": 36.2
   },
-  "14": {
-    "Model": "Gemini Nano 2",
+  "17": {
+    "Model": "Gemini 1.0 Nano 2",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2312.11805",
     "Date": "2023-12-06",
@@ -284,7 +341,7 @@ score_table = {
     "SCI": 40.2,
     "STA": 33.5
   },
-  "15": {
+  "18": {
     "Model": "LLaVA-1.5-13B",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://llava-vl.github.io/blog/2024-01-30-llava-1-6/",
@@ -303,7 +360,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "16": {
+  "19": {
     "Model": "SPHINX (V1)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX",
@@ -322,8 +379,8 @@ score_table = {
     "SCI": 40.2,
     "STA": 23.6
   },
-  "17": {
-    "Model": "Gemini Nano 1",
+  "20": {
+    "Model": "Gemini 1.0 Nano 1",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2312.11805",
     "Date": "2023-12-06",
@@ -341,7 +398,7 @@ score_table = {
     "SCI": 27.9,
     "STA": 30.9
   },
-  "18": {
+  "21": {
     "Model": "PoT ChatGPT (Caption+OCR)",
     "Method": "Tool \ud83d\udee0\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -360,7 +417,7 @@ score_table = {
     "SCI": 33.6,
     "STA": 29.9
   },
-  "19": {
+  "22": {
     "Model": "LLaVA (LLaMA-2-13B)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -379,7 +436,7 @@ score_table = {
     "SCI": 37.3,
     "STA": 25.1
   },
-  "20": {
+  "23": {
     "Model": "InstructBLIP (Vicuna-7B)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -398,7 +455,7 @@ score_table = {
     "SCI": 33.0,
     "STA": 23.1
   },
-  "21": {
+  "24": {
     "Model": "LLaVAR",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -417,7 +474,7 @@ score_table = {
     "SCI": 42.6,
     "STA": 21.9
   },
-  "22": {
+  "25": {
     "Model": "LLaMA-Adapter-V2 (7B)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -436,7 +493,7 @@ score_table = {
     "SCI": 29.5,
     "STA": 18.3
   },
-  "23": {
+  "26": {
     "Model": "miniGPT4 (LLaMA-2-7B)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -455,7 +512,7 @@ score_table = {
     "SCI": 25.4,
     "STA": 17.9
   },
-  "24": {
+  "27": {
     "Model": "mPLUG-Owl (LLaMA-7B)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -474,7 +531,7 @@ score_table = {
     "SCI": 26.3,
     "STA": 21.4
   },
-  "25": {
+  "28": {
     "Model": "IDEFICS (9B-Instruct)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -493,7 +550,7 @@ score_table = {
     "SCI": 24.6,
     "STA": 18.1
   },
-  "26": {
+  "29": {
     "Model": "Random Chance",
     "Method": "-",
     "Source": "https://arxiv.org/abs/2310.02255",

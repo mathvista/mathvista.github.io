@@ -67,19 +67,22 @@ function generateTable() {
           table += `<td><b>${entry.ALL.toFixed(1).toString()}</b></td>`; // .toFixed(1): round to 1 decimal place
         }          
 
-        // table += `<td>${entry.FQA.toFixed(1).toString()}</td>`;
-        // table += `<td>${entry.GPS.toFixed(1).toString()}</td>`;
-        // table += `<td>${entry.MWP.toFixed(1).toString()}</td>`;
-        // table += `<td>${entry.TQA.toFixed(1).toString()}</td>`;
-        // table += `<td>${entry.VQA.toFixed(1).toString()}</td>`;
-        // table += `<td>${entry.ALG.toFixed(1).toString()}</td>`;
-        // table += `<td>${entry.ARI.toFixed(1).toString()}</td>`;
-        // table += `<td>${entry.GEO.toFixed(1).toString()}</td>`;
-        // table += `<td>${entry.LOG.toFixed(1).toString()}</td>`;
-        // table += `<td>${entry.NUM.toFixed(1).toString()}</td>`;
-        // table += `<td>${entry.SCI.toFixed(1).toString()}</td>`;
-        // table += `<td>${entry.STA.toFixed(1).toString()}</td>`;
-        
+        // if entry.FQA is a number
+        if (!isNaN(entry.FQA)) {
+          table += `<td>${entry.FQA.toFixed(1).toString()}</td>`;
+          table += `<td>${entry.GPS.toFixed(1).toString()}</td>`;
+          table += `<td>${entry.MWP.toFixed(1).toString()}</td>`;
+          table += `<td>${entry.TQA.toFixed(1).toString()}</td>`;
+          table += `<td>${entry.VQA.toFixed(1).toString()}</td>`;
+          table += `<td>${entry.ALG.toFixed(1).toString()}</td>`;
+          table += `<td>${entry.ARI.toFixed(1).toString()}</td>`;
+          table += `<td>${entry.GEO.toFixed(1).toString()}</td>`;
+          table += `<td>${entry.LOG.toFixed(1).toString()}</td>`;
+          table += `<td>${entry.NUM.toFixed(1).toString()}</td>`;
+          table += `<td>${entry.SCI.toFixed(1).toString()}</td>`;
+          table += `<td>${entry.STA.toFixed(1).toString()}</td>`;
+        }
+        else {
         table += `<td>${entry.FQA.toString()}</td>`;
         table += `<td>${entry.GPS.toString()}</td>`;
         table += `<td>${entry.MWP.toString()}</td>`;
@@ -92,6 +95,7 @@ function generateTable() {
         table += `<td>${entry.NUM.toString()}</td>`;
         table += `<td>${entry.SCI.toString()}</td>`;
         table += `<td>${entry.STA.toString()}</td>`;
+        }
         table += '</tr>';
     }
 
