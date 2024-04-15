@@ -36,6 +36,8 @@ models = [d for d in os.listdir() if os.path.isdir(d)]
 table = []
 for model in models:
     files = os.listdir(f'./{model}')
+    # print(model)
+    # print(files)
     file = [f for f in files if f.startswith("scores_")][0]
 
     # load score file
