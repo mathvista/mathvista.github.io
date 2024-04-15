@@ -76,6 +76,25 @@ score_table_test = {
     "STA": 51.2
   },
   "5": {
+    "Model": "Minicpm-V-2",
+    "Method": "LMM \ud83d\uddbc\ufe0f",
+    "Source": "https://github.com/OpenBMB/MiniCPM-V",
+    "Date": "2024-04-14",
+    "ALL": 39.89,
+    "FQA": 51.7,
+    "GPS": 27.4,
+    "MWP": 39.8,
+    "TQA": 42.5,
+    "VQA": 34.7,
+    "ALG": 31.3,
+    "ARI": 34.4,
+    "GEO": 30.7,
+    "LOG": 13.4,
+    "NUM": 33.5,
+    "SCI": 38.5,
+    "STA": 50.0
+  },
+  "6": {
     "Model": "PoT GPT-4 (Caption+OCR)",
     "Method": "Tool \ud83d\udee0\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -94,7 +113,7 @@ score_table_test = {
     "SCI": 44.5,
     "STA": 31.9
   },
-  "6": {
+  "7": {
     "Model": "CoT GPT4 (Caption+OCR)",
     "Method": "Tool \ud83d\udee0\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -113,7 +132,7 @@ score_table_test = {
     "SCI": 47.3,
     "STA": 31.3
   },
-  "7": {
+  "8": {
     "Model": "LLaVA (LLaMA-2-13B)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -132,7 +151,7 @@ score_table_test = {
     "SCI": 34.7,
     "STA": 21.6
   },
-  "8": {
+  "9": {
     "Model": "Random Chance",
     "Method": "-",
     "Source": "https://arxiv.org/abs/2310.02255",
