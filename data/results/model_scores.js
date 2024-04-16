@@ -361,7 +361,7 @@ score_table = {
     "STA": "-"
   },
   "19": {
-    "Model": "Minicpm-V-2",
+    "Model": "MiniCPM-V-2 (2.8B)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://github.com/OpenBMB/MiniCPM-V",
     "Date": "2024-04-14",
