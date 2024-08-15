@@ -38,7 +38,7 @@ score_table = {
     "STA": "-"
   },
   "2": {
-    "Model": "Grok-2-mini \ud83e\udd48",
+    "Model": "Grok-2 mini \ud83e\udd48",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://x.ai/blog/grok-2",
     "Date": "2024-08-13",
