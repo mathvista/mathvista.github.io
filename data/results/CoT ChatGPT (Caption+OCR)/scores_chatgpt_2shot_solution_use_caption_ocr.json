@@ -1,0 +1,45 @@
+{
+  "average": {
+    "accuracy": "33.2"
+  },
+  "task": {
+    "figure question answering": {
+      "accuracy": "26.02"
+    },
+    "geometry problem solving": {
+      "accuracy": "31.73"
+    },
+    "math word problem": {
+      "accuracy": "35.48"
+    },
+    "textbook question answering": {
+      "accuracy": "48.10"
+    },
+    "visual question answering": {
+      "accuracy": "30.17"
+    }
+  },
+  "skills": {
+    "algebraic reasoning": {
+      "accuracy": "32.38"
+    },
+    "arithmetic reasoning": {
+      "accuracy": "32.29"
+    },
+    "geometry reasoning": {
+      "accuracy": "33.05"
+    },
+    "logical reasoning": {
+      "accuracy": "16.22"
+    },
+    "numeric commonsense": {
+      "accuracy": "17.36"
+    },
+    "scientific reasoning": {
+      "accuracy": "54.92"
+    },
+    "statistical reasoning": {
+      "accuracy": "36.21"
+    }
+  }
+}
