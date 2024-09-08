@@ -1,1 +1,0 @@
-cache['Random Chance'] = {}
