@@ -23,7 +23,7 @@ score_table = {
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://openai.com/index/learning-to-reason-with-llms/",
     "Date": "2024-09-12",
-    "ALL": 73.2,
+    "ALL": 73.9,
     "FQA": "-",
     "GPS": "-",
     "MWP": "-",
