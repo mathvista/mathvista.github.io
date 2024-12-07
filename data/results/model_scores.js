@@ -171,9 +171,9 @@ score_table = {
     "STA": 81.1
   },
   "9": {
-    "Model": "Chimera-Reasoner",
+    "Model": "Chimera-Reasoner-8B",
     "Method": "LMM \ud83d\uddbc\ufe0f",
-    "Source": "",
+    "Source": "https://unimodal4reasoning.github.io/chimera_page/",
     "Date": "2024-12-05",
     "ALL": 66.2,
     "FQA": 65.4,
