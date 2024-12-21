@@ -38,7 +38,26 @@ score_table = {
     "STA": "-"
   },
   "2": {
-    "Model": "Grok-2 \ud83e\udd48",
+    "Model": "Pixtral Large (124B) \ud83e\udd48",
+    "Method": "LMM \ud83d\uddbc\ufe0f",
+    "Source": "https://mistral.ai/news/pixtral-large/",
+    "Date": "2024-11-18",
+    "ALL": 69.4,
+    "FQA": "-",
+    "GPS": "-",
+    "MWP": "-",
+    "TQA": "-",
+    "VQA": "-",
+    "ALG": "-",
+    "ARI": "-",
+    "GEO": "-",
+    "LOG": "-",
+    "NUM": "-",
+    "SCI": "-",
+    "STA": "-"
+  },
+  "3": {
+    "Model": "Grok-2 \ud83e\udd49",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://x.ai/blog/grok-2",
     "Date": "2024-08-13",
@@ -56,8 +75,8 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "3": {
-    "Model": "Grok-2 mini \ud83e\udd49",
+  "4": {
+    "Model": "Grok-2 mini",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://x.ai/blog/grok-2",
     "Date": "2024-08-13",
@@ -75,7 +94,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "4": {
+  "5": {
     "Model": "Claude 3.5 Sonnet",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://www.anthropic.com/news/claude-3-5-sonnet",
@@ -94,7 +113,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "5": {
+  "6": {
     "Model": "LLaVA-OneVision",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://llava-vl.github.io/blog/2024-08-05-llava-onevision/",
@@ -113,7 +132,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "6": {
+  "7": {
     "Model": "InternVL2-8B-MPO",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://internvl.github.io/blog/2024-11-14-InternVL-2.0-MPO/",
@@ -132,7 +151,7 @@ score_table = {
     "SCI": 65.6,
     "STA": 79.1
   },
-  "7": {
+  "8": {
     "Model": "Ovis1.6-Gemma2-9B",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://rank.opencompass.org.cn/leaderboard-multimodal/?m=REALTIME",
@@ -151,7 +170,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "8": {
+  "9": {
     "Model": "InternVL2-Pro",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://github.com/OpenGVLab/InternVL",
@@ -170,7 +189,7 @@ score_table = {
     "SCI": 65.6,
     "STA": 81.1
   },
-  "9": {
+  "10": {
     "Model": "Chimera-Reasoner-8B",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://unimodal4reasoning.github.io/chimera_page/",
@@ -189,7 +208,7 @@ score_table = {
     "SCI": 61.5,
     "STA": 73.1
   },
-  "10": {
+  "11": {
     "Model": "TextGrad (GPT-4o)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://github.com/zou-group/textgrad",
@@ -208,7 +227,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "11": {
+  "12": {
     "Model": "Gemini 1.5 Pro (May 2024)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf",
@@ -227,7 +246,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "12": {
+  "13": {
     "Model": "GPT-4o",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://openai.com/index/hello-gpt-4o/",
@@ -246,7 +265,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "13": {
+  "14": {
     "Model": "InternVL-Chat-V1.2-Plus",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2312.14238",
@@ -265,7 +284,7 @@ score_table = {
     "SCI": 55.7,
     "STA": 60.8
   },
-  "14": {
+  "15": {
     "Model": "Gemini 1.5 Flash (May 2024)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf",
@@ -284,7 +303,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "15": {
+  "16": {
     "Model": "GPT-4T 2024-04-09",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://openai.com/index/hello-gpt-4o/",
@@ -303,11 +322,11 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "16": {
-    "Model": "Pixtral 12B",
+  "17": {
+    "Model": "Pixtral-12B",
     "Method": "LMM \ud83d\uddbc\ufe0f",
-    "Source": "https://x.com/_philschmid/status/1833954941624615151",
-    "Date": "2024-09-11",
+    "Source": "https://arxiv.org/abs/2410.07073",
+    "Date": "2024-10-09",
     "ALL": 58.0,
     "FQA": "-",
     "GPS": "-",
@@ -322,7 +341,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "17": {
+  "18": {
     "Model": "InternLM-XComposer2-VL-7B",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://github.com/InternLM/InternLM-XComposer",
@@ -341,7 +360,7 @@ score_table = {
     "SCI": 59.0,
     "STA": 64.1
   },
-  "18": {
+  "19": {
     "Model": "Gemini 1.0 Ultra",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2312.11805",
@@ -360,7 +379,7 @@ score_table = {
     "SCI": 62.3,
     "STA": 59.5
   },
-  "19": {
+  "20": {
     "Model": "Grok-1.5V",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://x.ai/blog/grok-1.5v",
@@ -379,7 +398,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "20": {
+  "21": {
     "Model": "Gemini 1.5 Pro (Feb 2024)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf",
@@ -398,7 +417,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "21": {
+  "22": {
     "Model": "Claude 3 Opus",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf",
@@ -417,7 +436,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "22": {
+  "23": {
     "Model": "GPT-4V (Playground)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -436,7 +455,7 @@ score_table = {
     "SCI": 63.1,
     "STA": 55.8
   },
-  "23": {
+  "24": {
     "Model": "Claude 3 Sonnet",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf",
@@ -455,7 +474,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "24": {
+  "25": {
     "Model": "InternVL-Chat-V1.2",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2312.14238",
@@ -474,7 +493,7 @@ score_table = {
     "SCI": 54.9,
     "STA": 51.8
   },
-  "25": {
+  "26": {
     "Model": "Math-LLaVA-13B",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "http://arxiv.org/abs/2406.17294",
@@ -493,7 +512,7 @@ score_table = {
     "SCI": 49.2,
     "STA": 43.9
   },
-  "26": {
+  "27": {
     "Model": "LLaVA-NeXT-34B",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://llava-vl.github.io/blog/2024-01-30-llava-1-6/",
@@ -512,7 +531,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "27": {
+  "28": {
     "Model": "Claude 3 Haiku",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf",
@@ -531,7 +550,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "28": {
+  "29": {
     "Model": "Gemini 1.0 Pro",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2312.11805",
@@ -550,7 +569,7 @@ score_table = {
     "SCI": 54.9,
     "STA": 56.8
   },
-  "29": {
+  "30": {
     "Model": "Phi-3-Vision-128K-In",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://huggingface.co/microsoft/Phi-3-vision-128k-instruct",
@@ -569,7 +588,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "30": {
+  "31": {
     "Model": "Phi-3.5-Vision 4.2B",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2404.14219",
@@ -588,7 +607,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "31": {
+  "32": {
     "Model": "Qwen-VL-Plus",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://github.com/QwenLM/Qwen-VL",
@@ -607,7 +626,7 @@ score_table = {
     "SCI": 59.0,
     "STA": 56.1
   },
-  "32": {
+  "33": {
     "Model": "Mini-Gemini-HD (Hermes-2-Yi-34B)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2403.18814",
@@ -626,7 +645,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "33": {
+  "34": {
     "Model": "SPHINX-MoE",
     "Method": "MoE \ud83e\udd16",
     "Source": "https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX",
@@ -645,7 +664,7 @@ score_table = {
     "SCI": 50.8,
     "STA": 50.8
   },
-  "34": {
+  "35": {
     "Model": "Mini-Gemini (Mixtral-8x7B)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2403.18814",
@@ -664,7 +683,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "35": {
+  "36": {
     "Model": "MM1-7B-MoE-Chat ",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2403.09611",
@@ -683,7 +702,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "36": {
+  "37": {
     "Model": "MiniCPM-V-2 (2.8B)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://github.com/OpenBMB/MiniCPM-V",
@@ -702,7 +721,7 @@ score_table = {
     "SCI": 48.4,
     "STA": 51.8
   },
-  "37": {
+  "38": {
     "Model": "MM1-30B-Chat",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2403.09611",
@@ -721,7 +740,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "38": {
+  "39": {
     "Model": "SPHINX-Plus",
     "Method": "MoE \ud83e\udd16",
     "Source": "https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX",
@@ -740,7 +759,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "39": {
+  "40": {
     "Model": "SPHINX (V2)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX",
@@ -759,7 +778,7 @@ score_table = {
     "SCI": 43.4,
     "STA": 51.5
   },
-  "40": {
+  "41": {
     "Model": "MM1-7B-Chat ",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2403.09611",
@@ -778,7 +797,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "41": {
+  "42": {
     "Model": "SPHINX-Intern2",
     "Method": "MoE \ud83e\udd16",
     "Source": "https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX",
@@ -797,7 +816,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "42": {
+  "43": {
     "Model": "OmniLMM-12B",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://github.com/OpenBMB/OmniLMM",
@@ -816,7 +835,7 @@ score_table = {
     "SCI": 45.9,
     "STA": 44.2
   },
-  "43": {
+  "44": {
     "Model": "Multimodal Bard",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -835,7 +854,7 @@ score_table = {
     "SCI": 47.5,
     "STA": 33.0
   },
-  "44": {
+  "45": {
     "Model": "LLaVA-NeXT-Vicuna-7B",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://llava-vl.github.io/blog/2024-01-30-llava-next/",
@@ -854,7 +873,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "45": {
+  "46": {
     "Model": "PoT GPT-4 (Caption+OCR)",
     "Method": "Tool \ud83d\udee0\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -873,7 +892,7 @@ score_table = {
     "SCI": 44.3,
     "STA": 37.9
   },
-  "46": {
+  "47": {
     "Model": "CoT Claude (Caption+OCR)",
     "Method": "Tool \ud83d\udee0\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -892,7 +911,7 @@ score_table = {
     "SCI": 50.8,
     "STA": 37.2
   },
-  "47": {
+  "48": {
     "Model": "CoT GPT4 (Caption+OCR)",
     "Method": "Tool \ud83d\udee0\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -911,7 +930,7 @@ score_table = {
     "SCI": 58.2,
     "STA": 37.9
   },
-  "48": {
+  "49": {
     "Model": "CoT ChatGPT (Caption+OCR)",
     "Method": "Tool \ud83d\udee0\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -930,7 +949,7 @@ score_table = {
     "SCI": 54.9,
     "STA": 36.2
   },
-  "49": {
+  "50": {
     "Model": "MM1-3B-MoE-Chat",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2403.09611",
@@ -949,7 +968,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "50": {
+  "51": {
     "Model": "MM1-3B-Chat",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2403.09611",
@@ -968,7 +987,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "51": {
+  "52": {
     "Model": "Gemini 1.0 Nano 2",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2312.11805",
@@ -987,7 +1006,7 @@ score_table = {
     "SCI": 40.2,
     "STA": 33.5
   },
-  "52": {
+  "53": {
     "Model": "LLaVA-1.5-13B",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://llava-vl.github.io/blog/2024-01-30-llava-1-6/",
@@ -1006,7 +1025,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "53": {
+  "54": {
     "Model": "SPHINX (V1)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX",
@@ -1025,7 +1044,7 @@ score_table = {
     "SCI": 40.2,
     "STA": 23.6
   },
-  "54": {
+  "55": {
     "Model": "Gemini 1.0 Nano 1",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2312.11805",
@@ -1044,7 +1063,7 @@ score_table = {
     "SCI": 27.9,
     "STA": 30.9
   },
-  "55": {
+  "56": {
     "Model": "PoT ChatGPT (Caption+OCR)",
     "Method": "Tool \ud83d\udee0\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -1063,7 +1082,7 @@ score_table = {
     "SCI": 33.6,
     "STA": 29.9
   },
-  "56": {
+  "57": {
     "Model": "SPHINX-Tiny",
     "Method": "MoE \ud83e\udd16",
     "Source": "https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX",
@@ -1082,7 +1101,7 @@ score_table = {
     "SCI": "-",
     "STA": "-"
   },
-  "57": {
+  "58": {
     "Model": "LLaVA (LLaMA-2-13B)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -1101,7 +1120,7 @@ score_table = {
     "SCI": 37.3,
     "STA": 25.1
   },
-  "58": {
+  "59": {
     "Model": "InstructBLIP (Vicuna-7B)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -1120,7 +1139,7 @@ score_table = {
     "SCI": 33.0,
     "STA": 23.1
   },
-  "59": {
+  "60": {
     "Model": "LLaVAR",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -1139,7 +1158,7 @@ score_table = {
     "SCI": 42.6,
     "STA": 21.9
   },
-  "60": {
+  "61": {
     "Model": "LLaMA-Adapter-V2 (7B)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -1158,7 +1177,7 @@ score_table = {
     "SCI": 29.5,
     "STA": 18.3
   },
-  "61": {
+  "62": {
     "Model": "miniGPT4 (LLaMA-2-7B)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -1177,7 +1196,7 @@ score_table = {
     "SCI": 25.4,
     "STA": 17.9
   },
-  "62": {
+  "63": {
     "Model": "mPLUG-Owl (LLaMA-7B)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -1196,7 +1215,7 @@ score_table = {
     "SCI": 26.3,
     "STA": 21.4
   },
-  "63": {
+  "64": {
     "Model": "IDEFICS (9B-Instruct)",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://arxiv.org/abs/2310.02255",
@@ -1215,7 +1234,7 @@ score_table = {
     "SCI": 24.6,
     "STA": 18.1
   },
-  "64": {
+  "65": {
     "Model": "Random Chance",
     "Method": "-",
     "Source": "https://arxiv.org/abs/2310.02255",
