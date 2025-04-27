@@ -4,42 +4,42 @@
   },
   "task": {
     "figure question answering": {
-      "accuracy": ""
+      "accuracy": "-"
     },
     "geometry problem solving": {
-      "accuracy": ""
+      "accuracy": "-"
     },
     "math word problem": {
-      "accuracy": ""
+      "accuracy": "-"
     },
     "textbook question answering": {
-      "accuracy": ""
+      "accuracy": "-"
     },
     "visual question answering": {
-      "accuracy": ""
+      "accuracy": "-"
     }
   },
   "skills": {
     "algebraic reasoning": {
-      "accuracy": ""
+      "accuracy": "-"
     },
     "arithmetic reasoning": {
-      "accuracy": ""
+      "accuracy": "-"
     },
     "geometry reasoning": {
-      "accuracy": ""
+      "accuracy": "-"
     },
     "logical reasoning": {
-      "accuracy": ""
+      "accuracy": "-"
     },
     "numeric commonsense": {
-      "accuracy": ""
+      "accuracy": "-"
     },
     "scientific reasoning": {
-      "accuracy": ""
+      "accuracy": "-"
     },
     "statistical reasoning": {
-      "accuracy": ""
+      "accuracy": "-"
     }
   }
 }
