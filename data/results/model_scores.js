@@ -440,7 +440,7 @@ score_table = {
     "Model": "TBAC-VLR1-3B-preview",
     "Method": "LMM \ud83d\uddbc\ufe0f",
     "Source": "https://huggingface.co/TencentBAC/TBAC-VLR1-3B-preview",
-    "Date": "2024-04-16",
+    "Date": "2025-04-16",
     "ALL": 64.8,
     "FQA": "-",
     "GPS": "-",
